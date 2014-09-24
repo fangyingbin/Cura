@@ -8,7 +8,7 @@ import traceback
 import threading
 import math
 import sys
-import cStringIO as StringIO
+import StringIO as StringIO
 
 import OpenGL
 OpenGL.ERROR_CHECKING = False
@@ -315,22 +315,34 @@ class SceneView(openglGui.glGuiPanel):
 		threading.Thread(target=self._saveGCode,args=(filename,)).start()
 
 	def _saveGCode(self, targetFilename, ejectDrive = False):
-		data = self._engine.getResult().getGCode()
 		try:
-			size = float(len(data))
-			fsrc = StringIO.StringIO(data)
-			with open(targetFilename, 'wb') as fdst:
-				while 1:
-					buf = fsrc.read(16*1024)
-					if not buf:
-						break
-					fdst.write(buf)
-					self.printButton.setProgressBar(float(fsrc.tell()) / size)
-					self._queueRefresh()
-		except:
-			import sys, traceback
-			traceback.print_exc()
-			self.notification.message("Failed to save")
+			data = self._engine.getResult().getGCode()
+			try:
+				size = float(len(data))
+				fsrc = StringIO.StringIO(data)
+				with open(targetFilename, 'wb') as fdst:
+					while 1:
+						buf = fsrc.read(16*1024)
+						if not buf:
+							break
+						fdst.write(buf)
+						self.printButton.setProgressBar(float(fsrc.tell()) / size)
+						self._queueRefresh()
+			except:
+				import sys, traceback
+				traceback.print_exc()
+				self.notification.message("Failed to save")
+		except:	
+			fileLineCount = float(self._engine.getResult().getGCodeDataCount())
+			count = 0
+			with open('temp.gcode', 'r') as inputData:
+				with open(targetFilename, 'wb') as fdst:
+					for line in inputData:
+						if line != '\n':
+							fdst.writelines(line)
+						count += 1
+						self.printButton.setProgressBar(float(count) / fileLineCount)
+						self._queueRefresh()
 		else:
 			if ejectDrive:
 				self.notification.message("Saved as %s" % (targetFilename), lambda : self._doEjectSD(ejectDrive), 31, 'Eject')

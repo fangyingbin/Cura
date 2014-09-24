@@ -19,7 +19,7 @@ import hashlib
 import socket
 import struct
 import errno
-import cStringIO as StringIO
+import StringIO as StringIO
 
 from Cura.util import profile
 from Cura.util import pluginInfo
@@ -54,6 +54,7 @@ class EngineResult(object):
 	def __init__(self):
 		self._engineLog = []
 		self._gcodeData = StringIO.StringIO()
+		self._gcodeDataCount = 0
 		self._polygons = []
 		self._replaceInfo = {}
 		self._success = False
@@ -114,6 +115,9 @@ class EngineResult(object):
 		self._gcodeData = StringIO.StringIO(gcode)
 		self._replaceInfo = {}
 
+	def getGCodeDataCount(self):
+		return self._gcodeDataCount
+		
 	def addLog(self, line):
 		self._engineLog.append(line)
 
@@ -385,10 +389,14 @@ class Engine(object):
 		logThread.start()
 
 		data = self._process.stdout.read(4096)
+		f = open("temp.gcode", 'wb') 
 		while len(data) > 0:
+			data.replace('\n\n','\n')
 			self._result._gcodeData.write(data)
+			f.write(data)
+			self._result._gcodeDataCount += data.count('\n')
 			data = self._process.stdout.read(4096)
-
+		f.close()
 		returnCode = self._process.wait()
 		logThread.join()
 		if returnCode == 0:
