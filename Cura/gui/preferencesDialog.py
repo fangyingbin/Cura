@@ -22,7 +22,7 @@ class preferencesDialog(wx.Dialog):
 
 		left, right, main = self.panel.CreateConfigPanel(self)
 
-		printWindowTypes = ['Basic']
+		printWindowTypes = [' Basic ']
 		for p in pluginInfo.getPluginList('printwindow'):
 			printWindowTypes.append(p.getName())
 		configBase.TitleRow(left, _("Print window"))
