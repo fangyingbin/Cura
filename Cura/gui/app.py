@@ -119,13 +119,26 @@ class CuraApp(wx.App):
 
 		#If we haven't run it before, run the configuration wizard.
 		if profile.getMachineSetting('machine_type') == 'unknown':
-			otherCuraInstalls = profile.getAlternativeBasePaths()
-			otherCuraInstalls.sort()
-			if len(otherCuraInstalls) > 0:
-				profile.loadPreferences(os.path.join(otherCuraInstalls[-1], 'preferences.ini'))
-				profile.loadProfile(os.path.join(otherCuraInstalls[-1], 'current_profile.ini'))
+			#otherCuraInstalls = profile.getAlternativeBasePaths()
+			#otherCuraInstalls.sort()
+			#if len(otherCuraInstalls) > 0:
+			#	profile.loadPreferences(os.path.join(otherCuraInstalls[-1], 'preferences.ini'))
+			#	profile.loadProfile(os.path.join(otherCuraInstalls[-1], 'current_profile.ini'))
 			#Check if we need to copy our examples
-			exampleFile = os.path.normpath(os.path.join(resources.resourceBasePath, 'example', '20mm_Calibration_Box.stl'))
+			#exampleFile = os.path.normpath(os.path.join(resources.resourceBasePath, 'example', '20mm_Calibration_Box.stl'))
+			
+			if platform.system() == "Windows":
+				exampleFile = os.path.normpath(os.path.join(resources.resourceBasePath, 'example', '20mm_Calibration_Box.stl'))
+			else:
+				#Check if we need to copy our examples
+				exampleFile = os.path.expanduser('~/CuraExamples/20mm_Calibration_Box.stl')
+				if not os.path.isfile(exampleFile):
+					try:
+						os.makedirs(os.path.dirname(exampleFile))
+					except:
+						pass
+					for filename in glob.glob(os.path.normpath(os.path.join(resources.resourceBasePath, 'example', '*.*'))):
+						shutil.copy(filename, os.path.join(os.path.dirname(exampleFile), os.path.basename(filename)))
 
 			self.loadFiles = [exampleFile]
 			if self.splash is not None:
