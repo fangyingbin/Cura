@@ -142,6 +142,9 @@ Section "Cura ${VERSION}"
   WriteRegDWORD HKLM "Software\Microsoft\Windows\CurrentVersion\Uninstall\Cura_${VERSION}" "NoRepair" 1
   WriteUninstaller "uninstall.exe"
 
+  ; Administrator permissions
+  WriteRegStr HKCU "Software\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers" "$INSTDIR\python\pythonw.exe" "RUNASADMIN"
+  
   ; Write start menu entries for all users
   SetShellVarContext all
   
