@@ -113,6 +113,8 @@ FunctionEnd
 
 ; Languages
 !insertmacro MUI_LANGUAGE "English"
+;!insertmacro MUI_LANGUAGE "TradChinese"
+;!insertmacro MUI_LANGUAGE "SimpChinese"
 
 ; Reserve Files
 !insertmacro MUI_RESERVEFILE_LANGDLL
