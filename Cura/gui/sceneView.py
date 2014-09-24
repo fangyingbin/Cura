@@ -1251,7 +1251,7 @@ class SceneView(openglGui.glGuiPanel):
 		machine = profile.getMachineSetting('machine_type')
 		if machine.startswith('ultimaker'):
 			if machine not in self._platformMesh:
-				meshes = meshLoader.loadMeshes(resources.getPathForMesh(machine + '_platform.stl'))
+				meshes = meshLoader.loadMeshes(resources.getPathForMesh('MakerPi_platform.stl'))
 				if len(meshes) > 0:
 					self._platformMesh[machine] = meshes[0]
 				else:
