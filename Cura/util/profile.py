@@ -281,7 +281,7 @@ G1 E-1 F300                            ;retract the filament a bit before liftin
 G1 Z+0.5 E-5 X-20 Y-20 F{travel_speed} ;move Z up a bit and retract filament even more
 G28 X0 Y0                              ;move X/Y to min endstops, so the head is out of the way
 
-M84                         ;steppers off
+M84 X Y E                   ;steppers off
 G90                         ;absolute positioning
 ;{profile_string}
 """, str, 'alteration', 'alteration')
@@ -329,7 +329,7 @@ G1 E-1 F300                            ;retract the filament a bit before liftin
 G1 Z+0.5 E-5 X-20 Y-20 F{travel_speed} ;move Z up a bit and retract filament even more
 G28 X0 Y0                              ;move X/Y to min endstops, so the head is out of the way
 
-M84                         ;steppers off
+M84 X Y E                   ;steppers off
 G90                         ;absolute positioning
 ;{profile_string}
 """, str, 'alteration', 'alteration')
@@ -384,7 +384,7 @@ G1 E-1 F300                            ;retract the filament a bit before liftin
 G1 Z+0.5 E-5 X-20 Y-20 F{travel_speed} ;move Z up a bit and retract filament even more
 G28 X0 Y0                              ;move X/Y to min endstops, so the head is out of the way
 
-M84                         ;steppers off
+M84 X Y E                   ;steppers off
 G90                         ;absolute positioning
 ;{profile_string}
 """, str, 'alteration', 'alteration')
@@ -446,7 +446,7 @@ G1 E-1 F300                            ;retract the filament a bit before liftin
 G1 Z+0.5 E-5 X-20 Y-20 F{travel_speed} ;move Z up a bit and retract filament even more
 G28 X0 Y0                              ;move X/Y to min endstops, so the head is out of the way
 
-M84                         ;steppers off
+M84 X Y E                   ;steppers off
 G90                         ;absolute positioning
 ;{profile_string}
 """, str, 'alteration', 'alteration')
