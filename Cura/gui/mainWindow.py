@@ -577,7 +577,7 @@ class mainWindow(wx.Frame):
 		aboutBox.Show()
 
 	def OnAboutMakerPi(self, e):
-		aboutBox = aboutSoongonWindow.aboutMakerPiWindow()
+		aboutBox = aboutMakerPiWindow.aboutMakerPiWindow()
 		aboutBox.Centre()
 		aboutBox.Show()	
 
