@@ -1,0 +1,2581 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR David Braam
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Cura\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-24 15:28+0800\n"
+"PO-Revision-Date: 2013-12-16 18:46+0800\n"
+"Last-Translator: bingo <fangyb88@yahoo.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: tw\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.2\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: Cura/gui/aboutMakerPiWindow.py:8
+msgid "About"
+msgstr "關於"
+
+#: Cura/gui/aboutMakerPiWindow.py:20
+#, fuzzy
+msgid "MakerPi"
+msgstr "關於MakerPi"
+
+#: Cura/gui/aboutMakerPiWindow.py:24
+msgid "Website"
+msgstr "網站"
+
+#: Cura/gui/app.py:140 Cura/gui/mainWindow.py:569
+msgid "A new version of Cura is available, would you like to download?"
+msgstr "發現可用新版本，是否下載？"
+
+#: Cura/gui/app.py:140 Cura/gui/mainWindow.py:569
+msgid "New version available"
+msgstr "可用新版本"
+
+#: Cura/gui/configWizard.py:231
+msgid "Add new machine wizard"
+msgstr "添加新機器向導"
+
+#: Cura/gui/configWizard.py:233
+msgid "First time run wizard"
+msgstr "第壹次啟動向導"
+
+#: Cura/gui/configWizard.py:234
+msgid "Welcome, and thanks for trying Cura!"
+msgstr "歡迎，感謝使用Cura中文版"
+
+#: Cura/gui/configWizard.py:236
+msgid "This wizard will help you in setting up Cura for your machine."
+msgstr "這個向導幫妳的機器配置Cura"
+
+#: Cura/gui/configWizard.py:239
+#, fuzzy
+msgid "Select your language:"
+msgstr "請選擇妳的機器類型"
+
+#: Cura/gui/configWizard.py:280
+#, fuzzy
+msgid "Select which Printrbot machine you have:"
+msgstr "妳是哪種機型："
+
+#: Cura/gui/configWizard.py:317
+msgid "The following pre-defined machine profiles are available"
+msgstr "有下列默認的機器參數可選"
+
+#: Cura/gui/configWizard.py:318
+msgid ""
+"Note that these profiles are not guaranteed to give good results,\n"
+"or work at all. Extra tweaks might be required.\n"
+"If you find issues with the predefined profiles,\n"
+"or want an extra profile.\n"
+"Please report it at the github issue tracker."
+msgstr ""
+"註意這些配置不能保證效果很好，\n"
+"甚至不保證正常工作，需要做額外調整，\n"
+"如果妳發現默認參數有問題，\n"
+"或者想添加額外的參數，\n"
+"請上報到github做問題跟蹤。"
+
+#: Cura/gui/configWizard.py:348
+msgid "Cura is now ready to be used!"
+msgstr "Cura已經準備完成"
+
+#: Cura/gui/configWizard.py:353
+msgid ""
+"RepRap machines can be vastly different, so here you can set your own "
+"settings."
+msgstr "RepRap機器有很大的差異，所以妳要自己設置參數。"
+
+#: Cura/gui/configWizard.py:354
+msgid ""
+"Be sure to review the default profile before running it on your machine."
+msgstr "請在機器運行之前檢查這些默認參數"
+
+#: Cura/gui/configWizard.py:355
+msgid ""
+"If you like a default profile for your machine added,\n"
+"then make an issue on github."
+msgstr ""
+"如果妳想要添加壹個默認的機器參數，\n"
+"請在github上寫清楚"
+
+#: Cura/gui/configWizard.py:357
+msgid "You will have to manually install Marlin or Sprinter firmware."
+msgstr "妳必須手動安裝Marlin或者Sprinter固件"
+
+#: Cura/gui/configWizard.py:359
+msgid "Machine name"
+msgstr "機器名稱"
+
+#: Cura/gui/configWizard.py:360
+msgid "Machine width (mm)"
+msgstr "機器寬度 (mm)"
+
+#: Cura/gui/configWizard.py:361
+msgid "Machine depth (mm)"
+msgstr "機器深度 (mm)"
+
+#: Cura/gui/configWizard.py:362
+msgid "Machine height (mm)"
+msgstr "機器高度 (mm)"
+
+#: Cura/gui/configWizard.py:363 Cura/util/profile.py:175
+msgid "Nozzle size (mm)"
+msgstr "噴嘴直徑(mm)"
+
+#: Cura/gui/configWizard.py:364 Cura/util/profile.py:503
+msgid "Heated bed"
+msgstr "熱盤"
+
+#: Cura/gui/configWizard.py:365
+msgid "Bed center is 0,0,0 (RoStock)"
+msgstr "0,0,0為列印平臺原點(RoStock)"
+
+#: Cura/gui/configWizard.py:385
+msgid "Select your machine"
+msgstr "請選擇妳的機器類型"
+
+#: Cura/gui/configWizard.py:386
+msgid "What kind of machine do you have:"
+msgstr "妳是哪種機型："
+
+#: Cura/gui/configWizard.py:401
+#, fuzzy
+msgid "Other (Ex: RepRap, MakerBot, Witbox)"
+msgstr "其他(如: RepRap，MakerBot)"
+
+#: Cura/gui/configWizard.py:404
+msgid ""
+"The collection of anonymous usage information helps with the continued "
+"improvement of Cura."
+msgstr "收集匿名使用信息有助於改進Cura。"
+
+#: Cura/gui/configWizard.py:405
+msgid ""
+"This does NOT submit your models online nor gathers any privacy related "
+"information."
+msgstr "它不會把妳的模型放到網上也不會收集任何個人信息."
+
+#: Cura/gui/configWizard.py:406
+msgid "Submit anonymous usage information:"
+msgstr "提交匿名的使用信息:"
+
+#: Cura/gui/configWizard.py:407
+msgid "For full details see: http://wiki.ultimaker.com/Cura:stats"
+msgstr "更多詳情請訪問: http://wiki.ultimaker.com/Cura:stats"
+
+#: Cura/gui/configWizard.py:524
+msgid "Select upgraded parts you have"
+msgstr "選擇升級自定義部分"
+
+#: Cura/gui/configWizard.py:525
+msgid ""
+"To assist you in having better default settings for your Ultimaker\n"
+"Cura would like to know which upgrades you have in your machine."
+msgstr ""
+"為了幫妳的機器配置壹個更好的默認參數a\n"
+"Cura希望知道妳的機器升級了哪些東西."
+
+#: Cura/gui/configWizard.py:527
+msgid "Extruder drive upgrade"
+msgstr "送料機升級"
+
+#: Cura/gui/configWizard.py:528
+#, fuzzy
+msgid "Heated printer bed (kit)"
+msgstr "熱盤（自己裝配）"
+
+#: Cura/gui/configWizard.py:529
+msgid "Heated printer bed (self built)"
+msgstr "熱盤（自己裝配）"
+
+#: Cura/gui/configWizard.py:530
+msgid "Dual extrusion (experimental)"
+msgstr "雙噴頭(試驗)"
+
+#: Cura/gui/configWizard.py:532
+msgid ""
+"If you have an Ultimaker bought after october 2012 you will have the\n"
+"Extruder drive upgrade. If you do not have this upgrade,\n"
+"it is highly recommended to improve reliability."
+msgstr ""
+"如果妳的機器是在2012年10月之後購買的,\n"
+"那麽妳的送料機已經是升級版.\n"
+"如果妳還沒升級,我們強烈建議妳升級以提高穩定性."
+
+#: Cura/gui/configWizard.py:533
+msgid ""
+"This upgrade can be bought from the Ultimaker webshop\n"
+"or found on thingiverse as thing:26094"
+msgstr ""
+"升級版妳可以Ultimake的網店上面購買\n"
+"也可以在thingiverse網站上找thing:26094"
+
+#: Cura/gui/configWizard.py:555
+msgid "Upgrade Ultimaker Firmware"
+msgstr "升級固件"
+
+#: Cura/gui/configWizard.py:556
+msgid ""
+"Firmware is the piece of software running directly on your 3D printer.\n"
+"This firmware controls the step motors, regulates the temperature\n"
+"and ultimately makes your printer work."
+msgstr ""
+"固件是那個直接運行在3D列印機上的軟件\n"
+"它控制電機,溫度等\n"
+"最終使得機器能夠列印物體."
+
+#: Cura/gui/configWizard.py:558
+msgid ""
+"The firmware shipping with new Ultimakers works, but upgrades\n"
+"have been made to make better prints, and make calibration easier."
+msgstr ""
+"新機器隨帶著新的固件壹起\n"
+"但是新的升級會使得列印效果更好,並且更容易調校。"
+
+#: Cura/gui/configWizard.py:560
+msgid ""
+"Cura requires these new features and thus\n"
+"your firmware will most likely need to be upgraded.\n"
+"You will get the chance to do so now."
+msgstr ""
+"Cura需要那些新的固件功能\n"
+"如果妳的固件需要升級\n"
+"現在正是好機會."
+
+#: Cura/gui/configWizard.py:566
+msgid "Do not upgrade to this firmware if:"
+msgstr "下列情況請勿升級："
+
+#: Cura/gui/configWizard.py:567
+msgid "* You have an older machine based on ATMega1280 (Rev 1 machine)"
+msgstr "*機器是基於ATMega 1280 (Joysmaker不會發生)"
+
+#: Cura/gui/configWizard.py:568
+msgid "* Build your own heated bed"
+msgstr ""
+
+#: Cura/gui/configWizard.py:569
+msgid "* Have other changes in the firmware"
+msgstr "*妳自己有更改固件"
+
+#: Cura/gui/configWizard.py:603
+msgid ""
+"It is a good idea to do a few sanity checks now on your Ultimaker.\n"
+"You can skip these if you know your machine is functional."
+msgstr ""
+"做壹個完整的檢查是很有幫助的\n"
+"當然，妳可以跳過，如果妳已經知道妳的機器工作的很好."
+
+#: Cura/gui/configWizard.py:604
+msgid "Run checks"
+msgstr "運行檢查"
+
+#: Cura/gui/configWizard.py:604
+msgid "Skip checks"
+msgstr "跳過檢查"
+
+#: Cura/gui/configWizard.py:608
+msgid "Communication:"
+msgstr "通訊:"
+
+#: Cura/gui/configWizard.py:609
+msgid "Temperature:"
+msgstr "溫度:"
+
+#: Cura/gui/configWizard.py:610
+msgid "Endstops:"
+msgstr "限位開關:"
+
+#: Cura/gui/configWizard.py:615
+msgid "Show error log"
+msgstr "顯示錯誤記錄"
+
+#: Cura/gui/configWizard.py:649
+msgid "Connecting to machine."
+msgstr "正在連接機器."
+
+#: Cura/gui/configWizard.py:670
+msgid "Cooldown before temperature check."
+msgstr "進行溫度測試之前需要先冷卻."
+
+#: Cura/gui/configWizard.py:676 Cura/gui/configWizard.py:683
+msgid "Checking the heater and temperature sensor."
+msgstr "檢查加熱管以及溫度傳感器."
+
+#: Cura/gui/configWizard.py:694
+msgid "Please make sure none of the endstops are pressed."
+msgstr "請確保所有的限位開關都是打開狀態."
+
+#: Cura/gui/configWizard.py:707
+msgid "Temperature measurement FAILED!"
+msgstr "溫度檢測失敗!"
+
+#: Cura/gui/configWizard.py:712
+#, python-format
+msgid "Head temperature: %d"
+msgstr "列印頭溫度: %d"
+
+#: Cura/gui/configWizard.py:719 Cura/gui/configWizard.py:728
+#, python-format
+msgid "Communication State: %s"
+msgstr "通訊狀態: %s"
+
+#: Cura/gui/configWizard.py:722
+msgid "Failed to establish connection with the printer."
+msgstr "與列印機建立連接失敗."
+
+#: Cura/gui/configWizard.py:768 Cura/gui/configWizard.py:777
+msgid "Please press the left X endstop."
+msgstr "請按下X軸左側限位開關."
+
+#: Cura/gui/configWizard.py:772
+msgid "Please press the right X endstop."
+msgstr "請按下X軸右側限位開關."
+
+#: Cura/gui/configWizard.py:782
+msgid "Please press the front Y endstop."
+msgstr "請按下Y軸前邊限位開關."
+
+#: Cura/gui/configWizard.py:788 Cura/gui/configWizard.py:797
+msgid "Please press the top Z endstop."
+msgstr "請按下Z軸上部限位開關."
+
+#: Cura/gui/configWizard.py:792
+msgid "Please press the back Y endstop."
+msgstr "請按下Y軸後邊限位開關."
+
+#: Cura/gui/configWizard.py:804 Cura/gui/configWizard.py:817
+msgid "Checkup finished"
+msgstr "檢查完畢"
+
+#: Cura/gui/configWizard.py:811
+msgid "Please press the bottom Z endstop."
+msgstr "請按下Z軸下部限位開關."
+
+#: Cura/gui/configWizard.py:860
+msgid "Calibrating the Steps Per E requires some manual actions."
+msgstr "校準Steps Per E需要壹些手動步驟"
+
+#: Cura/gui/configWizard.py:861
+msgid "First remove any filament from your machine."
+msgstr "首先，請壹處機器上的耗材"
+
+#: Cura/gui/configWizard.py:862
+msgid ""
+"Next put in your filament so the tip is aligned with the\n"
+"top of the extruder drive."
+msgstr ""
+"然後，放入耗材，使得剪頭\n"
+"與送料機頂端平齊."
+
+#: Cura/gui/configWizard.py:863
+msgid "We'll push the filament 100mm"
+msgstr "我們將送入100mm耗材"
+
+#: Cura/gui/configWizard.py:864
+msgid "Extrude 100mm filament"
+msgstr "擠出100mm耗材"
+
+#: Cura/gui/configWizard.py:865
+msgid ""
+"Now measure the amount of extruded filament:\n"
+"(this can be more or less then 100mm)"
+msgstr ""
+"現在，請測量妳的耗材擠出量:\n"
+"(可能和100mm不同)"
+
+#: Cura/gui/configWizard.py:866
+msgid "Save"
+msgstr "保存"
+
+#: Cura/gui/configWizard.py:867
+msgid "This results in the following steps per E:"
+msgstr "這個結果就是steps per E:"
+
+#: Cura/gui/configWizard.py:869
+msgid "You can repeat these steps to get better calibration."
+msgstr "妳可以重復幾次以取得最好的效果."
+
+#: Cura/gui/configWizard.py:872
+msgid ""
+"If you still have filament in your printer which needs\n"
+"heat to remove, press the heat up button below:"
+msgstr ""
+"如果妳有耗材在機器當中\n"
+"妳需要加熱才能取出耗材，請點擊加熱按鈕:"
+
+#: Cura/gui/configWizard.py:873
+msgid "Heatup for filament removal"
+msgstr "正在加熱"
+
+#: Cura/gui/configWizard.py:898 Cura/gui/configWizard.py:932
+msgid ""
+"Error: Failed to open serial port to machine\n"
+"If this keeps happening, try disconnecting and reconnecting the USB cable"
+msgstr ""
+"錯誤:打開串口端口失敗\n"
+"如果這個情況重復發生,請重新連接USB線"
+
+#: Cura/gui/firmwareInstall.py:58
+msgid ""
+"I am sorry, but Cura does not ship with a default firmware for your machine "
+"configuration."
+msgstr "對不起，但是Cura沒有包含妳機器適用的的固件."
+
+#: Cura/gui/firmwareInstall.py:58 Cura/gui/firmwareInstall.py:62
+#: Cura/gui/firmwareInstall.py:117 Cura/gui/mainWindow.py:511
+msgid "Firmware update"
+msgstr "固件升級"
+
+#: Cura/gui/firmwareInstall.py:62
+msgid ""
+"Cura only supports firmware updates for ATMega2560 based hardware.\n"
+"So updating your RepRap with Cura might or might not work."
+msgstr ""
+"Cura只支持基於ATMega2560的升級\n"
+"因此妳的RepRap可能會不工作"
+
+#: Cura/gui/firmwareInstall.py:70
+msgid "OK"
+msgstr ""
+
+#: Cura/gui/firmwareInstall.py:91
+msgid "Reading firmware..."
+msgstr "固件準備..."
+
+#: Cura/gui/firmwareInstall.py:93
+msgid "Connecting to machine..."
+msgstr "正在連接機器..."
+
+#: Cura/gui/firmwareInstall.py:97
+msgid ""
+"Please connect the printer to\n"
+"your computer with the USB cable."
+msgstr ""
+"請使用USB線連接您的列印機\n"
+"到電腦"
+
+#: Cura/gui/firmwareInstall.py:116
+msgid ""
+"Failed to find machine for firmware upgrade\n"
+"Is your machine connected to the PC?"
+msgstr ""
+"查找機器失敗\n"
+"請確保妳的機器已經連接?"
+
+#: Cura/gui/firmwareInstall.py:121
+msgid "Uploading firmware..."
+msgstr "上傳固件..."
+
+#: Cura/gui/firmwareInstall.py:124
+#, python-format
+msgid ""
+"Done!\n"
+"Installed firmware: %s"
+msgstr ""
+"完成!\n"
+"已安裝固件: %s"
+
+#: Cura/gui/firmwareInstall.py:126
+msgid "Failed to write firmware.\n"
+msgstr "固件寫入失敗.\n"
+
+#: Cura/gui/mainWindow.py:67
+msgid "Load model file...\tCTRL+L"
+msgstr "打開模型或gcode...\tCTRL+L"
+
+#: Cura/gui/mainWindow.py:69
+msgid "Save model...\tCTRL+S"
+msgstr "保存模型...\tCTRL+S"
+
+#: Cura/gui/mainWindow.py:71
+msgid "Reload platform\tF5"
+msgstr "刷新平臺"
+
+#: Cura/gui/mainWindow.py:73
+msgid "Clear platform"
+msgstr "清除平臺"
+
+#: Cura/gui/mainWindow.py:77
+msgid "Print...\tCTRL+P"
+msgstr "開始列印...\tCTRL+P"
+
+#: Cura/gui/mainWindow.py:79 Cura/gui/sceneView.py:279
+msgid "Save GCode..."
+msgstr "保存GCode..."
+
+#: Cura/gui/mainWindow.py:81
+msgid "Show slice engine log..."
+msgstr "打開切片引擎日誌..."
+
+#: Cura/gui/mainWindow.py:85
+msgid "Open Profile..."
+msgstr "打開配置..."
+
+#: Cura/gui/mainWindow.py:88
+msgid "Save Profile..."
+msgstr "保存配置..."
+
+#: Cura/gui/mainWindow.py:91
+msgid "Load Profile from GCode..."
+msgstr "從GCode加載配置..."
+
+#: Cura/gui/mainWindow.py:95
+msgid "Reset Profile to default"
+msgstr "重置配置"
+
+#: Cura/gui/mainWindow.py:100
+msgid "Preferences...\tCTRL+,"
+msgstr "首選項...\tCTRL+,"
+
+#: Cura/gui/mainWindow.py:102 Cura/gui/mainWindow.py:437
+msgid "Machine settings..."
+msgstr "機器設置"
+
+#: Cura/gui/mainWindow.py:108
+msgid "Recent Model Files"
+msgstr "歷史模型文件"
+
+#: Cura/gui/mainWindow.py:115
+msgid "Recent Profile Files"
+msgstr "歷史配置文件"
+
+#: Cura/gui/mainWindow.py:121
+msgid "Quit"
+msgstr "退出"
+
+#: Cura/gui/mainWindow.py:123
+msgid "File"
+msgstr "文件"
+
+#: Cura/gui/mainWindow.py:131
+msgid "Minecraft map import..."
+msgstr ""
+
+#: Cura/gui/mainWindow.py:135
+msgid "PID Debugger..."
+msgstr "PID調試..."
+
+#: Cura/gui/mainWindow.py:138
+msgid "Copy profile to clipboard"
+msgstr "拷貝配置到剪貼板"
+
+#: Cura/gui/mainWindow.py:142
+msgid "Print all at once"
+msgstr "同時列印"
+
+#: Cura/gui/mainWindow.py:144
+msgid "Print one at a time"
+msgstr "逐個列印"
+
+#: Cura/gui/mainWindow.py:151
+msgid "Tools"
+msgstr "工具"
+
+#: Cura/gui/mainWindow.py:157 Cura/util/profile.py:175
+msgid "Machine"
+msgstr "設備"
+
+#: Cura/gui/mainWindow.py:160
+msgid "Switch to quickprint..."
+msgstr "切換到快速列印模式..."
+
+#: Cura/gui/mainWindow.py:164
+msgid "Switch to full settings..."
+msgstr "切換到完整模式..."
+
+#: Cura/gui/mainWindow.py:169
+msgid "Open expert settings...\tCTRL+E"
+msgstr "打開專家配置\tCTRL+E"
+
+#: Cura/gui/mainWindow.py:173
+msgid "Run first run wizard..."
+msgstr "首次運行向導..."
+
+#: Cura/gui/mainWindow.py:175
+msgid "Run bed leveling wizard..."
+msgstr "運行平臺調整向導..."
+
+#: Cura/gui/mainWindow.py:177
+msgid "Run head offset wizard..."
+msgstr "運行列印頭偏移設置向導..."
+
+#: Cura/gui/mainWindow.py:180
+msgid "Expert"
+msgstr "專家配置"
+
+#: Cura/gui/mainWindow.py:191
+msgid "About Cura..."
+msgstr "關於Cura"
+
+#: Cura/gui/mainWindow.py:193
+msgid "About MakerPi..."
+msgstr "關於MakerPi"
+
+#: Cura/gui/mainWindow.py:195
+msgid "Help"
+msgstr "幫助"
+
+#: Cura/gui/mainWindow.py:346
+msgid ""
+"For \"One at a time\" printing, you need to have entered the correct head "
+"size and gantry height in the machine settings"
+msgstr ""
+
+#: Cura/gui/mainWindow.py:346
+msgid "One at a time warning"
+msgstr ""
+
+#: Cura/gui/mainWindow.py:443
+msgid "Install default firmware..."
+msgstr "安裝默認版本固件"
+
+#: Cura/gui/mainWindow.py:446
+msgid "Install custom firmware..."
+msgstr "安裝新版本固件"
+
+#: Cura/gui/mainWindow.py:450
+msgid "Select profile file to load"
+msgstr "加載配置文件"
+
+#: Cura/gui/mainWindow.py:462
+msgid "Select gcode file to load profile from"
+msgstr "從gcode文件加載配置"
+
+#: Cura/gui/mainWindow.py:477
+msgid ""
+"No profile found in GCode file.\n"
+"This feature only works with GCode files made by Cura 12.07 or newer."
+msgstr ""
+"gcode文件中沒有找到配置\n"
+"這個功能需要Cura12.07之後的版本生成的gcode文件"
+
+#: Cura/gui/mainWindow.py:477
+msgid "Profile load error"
+msgstr "加載配置失敗"
+
+#: Cura/gui/mainWindow.py:481
+msgid "Select profile file to save"
+msgstr "保存配置到文件"
+
+#: Cura/gui/mainWindow.py:491
+msgid ""
+"This will reset all profile settings to defaults.\n"
+"Unless you have saved your current profile, all settings will be lost!\n"
+"Do you really want to reset?"
+msgstr ""
+"所有配置將會被重置\n"
+"除非妳已經保存了當前配置,否則所有的配置降會丟失\n"
+"妳確定要繼續?"
+
+#: Cura/gui/mainWindow.py:491
+msgid "Profile reset"
+msgstr "重置配置"
+
+#: Cura/gui/mainWindow.py:511
+msgid ""
+"Warning: Installing a custom firmware does not guarantee that you machine "
+"will function correctly, and could damage your machine."
+msgstr ""
+"警告:安裝壹個自定義固件,不能保證所有的功能都正確工作,甚至可能損壞妳的機器"
+
+#: Cura/gui/mainWindow.py:512
+msgid "Open firmware to upload"
+msgstr "選擇固件"
+
+#: Cura/gui/mainWindow.py:572
+msgid "You are running the latest version of Cura!"
+msgstr "妳正在使用最新版本的Cura"
+
+#: Cura/gui/mainWindow.py:572
+msgid "Awesome!"
+msgstr "恭喜"
+
+#: Cura/gui/mainWindow.py:622
+msgid "Basic"
+msgstr "基本設置"
+
+#: Cura/gui/mainWindow.py:626
+msgid "Advanced"
+msgstr "高級設置"
+
+#: Cura/gui/mainWindow.py:632
+msgid "Plugins"
+msgstr "插件"
+
+#: Cura/gui/mainWindow.py:639
+msgid "Start/End-GCode"
+msgstr "起始/結束-GCode"
+
+#: Cura/gui/pluginPanel.py:27
+msgid "Plugins:"
+msgstr "插件:"
+
+#: Cura/gui/pluginPanel.py:31
+msgid "Open plugin location"
+msgstr "打開插件目錄"
+
+#: Cura/gui/pluginPanel.py:32
+msgid "Enabled plugins"
+msgstr "開啟插件"
+
+#: Cura/gui/pluginPanel.py:134
+msgid "You need to select a plugin before you can add anything."
+msgstr "妳需要選擇壹個插件"
+
+#: Cura/gui/pluginPanel.py:134
+msgid "Error: no plugin selected"
+msgstr "錯誤: 沒有插件被選中"
+
+#: Cura/gui/preferencesDialog.py:28
+msgid "Print window"
+msgstr "列印界面"
+
+#: Cura/gui/preferencesDialog.py:31
+msgid "Colours"
+msgstr "顏色"
+
+#: Cura/gui/preferencesDialog.py:37 Cura/util/profile.py:478
+msgid "Language"
+msgstr "語言"
+
+#: Cura/gui/preferencesDialog.py:40
+msgid "Filament settings"
+msgstr "耗材參數"
+
+#: Cura/gui/preferencesDialog.py:50
+msgid "Cura settings"
+msgstr "Cura配置"
+
+#: Cura/gui/preferencesDialog.py:84
+msgid "Machine settings"
+msgstr "機器設置"
+
+#: Cura/gui/preferencesDialog.py:95
+msgid "Printer head size"
+msgstr "擠出頭尺寸"
+
+#: Cura/gui/preferencesDialog.py:103
+#, python-format
+msgid "Extruder %d"
+msgstr "擠出頭數量 %d"
+
+#: Cura/gui/preferencesDialog.py:107
+msgid "Communication settings"
+msgstr "通訊設置"
+
+#: Cura/gui/preferencesDialog.py:154
+msgid "Cannot remove the last machine configuration in Cura"
+msgstr "無法移除機器配置"
+
+#: Cura/gui/preferencesDialog.py:154
+msgid "Machine remove error"
+msgstr "機器移除失敗"
+
+#: Cura/gui/preferencesDialog.py:168
+msgid "Enter the new name:"
+msgstr ""
+
+#: Cura/gui/preferencesDialog.py:168
+#, fuzzy
+msgid "Change machine name"
+msgstr "機器名稱"
+
+#: Cura/gui/printWindow.py:33 Cura/gui/printWindow.py:312
+#, python-format
+msgid "Printing on %s"
+msgstr "列印中 %s"
+
+#: Cura/gui/printWindow.py:324
+msgid ""
+"Your computer is running on battery power.\n"
+"Connect your computer to AC power or your print might not finish."
+msgstr ""
+"妳的電腦正在使用電池\n"
+"連接電源,否則可能妳的列印無法完成"
+
+#: Cura/gui/printWindow.py:334
+msgid ""
+"InfoLine from printer connection\n"
+"InfoLine from dialog\n"
+"Extra line\n"
+"More lines for layout\n"
+"More lines for layout\n"
+"More lines for layout"
+msgstr ""
+
+#: Cura/gui/printWindow.py:336
+msgid "Connect"
+msgstr "連接"
+
+#: Cura/gui/printWindow.py:338 Cura/gui/sceneView.py:65
+msgid "Print"
+msgstr "列印"
+
+#: Cura/gui/printWindow.py:339
+msgid "Pause"
+msgstr "暫停"
+
+#: Cura/gui/printWindow.py:340
+msgid "Cancel print"
+msgstr "取消列印"
+
+#: Cura/gui/printWindow.py:341
+msgid "Error log"
+msgstr "錯誤記錄"
+
+#: Cura/gui/sceneView.py:64
+msgid "Load"
+msgstr ""
+
+#: Cura/gui/sceneView.py:69
+msgid "Rotate"
+msgstr ""
+
+#: Cura/gui/sceneView.py:70
+msgid "Scale"
+msgstr ""
+
+#: Cura/gui/sceneView.py:71
+msgid "Mirror"
+msgstr ""
+
+#: Cura/gui/sceneView.py:73 Cura/gui/sceneView.py:76
+msgid "Reset"
+msgstr ""
+
+#: Cura/gui/sceneView.py:74
+msgid "Lay flat"
+msgstr ""
+
+#: Cura/gui/sceneView.py:77
+msgid "To max"
+msgstr ""
+
+#: Cura/gui/sceneView.py:79
+msgid "Mirror X"
+msgstr ""
+
+#: Cura/gui/sceneView.py:80
+msgid "Mirror Y"
+msgstr ""
+
+#: Cura/gui/sceneView.py:81
+msgid "Mirror Z"
+msgstr ""
+
+#: Cura/gui/sceneView.py:89
+msgid "Scale X"
+msgstr ""
+
+#: Cura/gui/sceneView.py:91
+msgid "Scale Y"
+msgstr ""
+
+#: Cura/gui/sceneView.py:93
+msgid "Scale Z"
+msgstr ""
+
+#: Cura/gui/sceneView.py:95
+msgid "Size X (mm)"
+msgstr ""
+
+#: Cura/gui/sceneView.py:97
+msgid "Size Y (mm)"
+msgstr ""
+
+#: Cura/gui/sceneView.py:99
+msgid "Size Z (mm)"
+msgstr ""
+
+#: Cura/gui/sceneView.py:101
+msgid "Uniform scale"
+msgstr ""
+
+#: Cura/gui/sceneView.py:104
+msgid "View mode"
+msgstr ""
+
+#: Cura/gui/sceneView.py:104
+msgid "Normal"
+msgstr ""
+
+#: Cura/gui/sceneView.py:104
+msgid "Overhang"
+msgstr ""
+
+#: Cura/gui/sceneView.py:104
+msgid "Transparent"
+msgstr ""
+
+#: Cura/gui/sceneView.py:104
+msgid "X-Ray"
+msgstr ""
+
+#: Cura/gui/sceneView.py:104
+msgid "Layers"
+msgstr ""
+
+#: Cura/gui/sceneView.py:204
+msgid "Open 3D model"
+msgstr "打開3D模型"
+
+#: Cura/gui/sceneView.py:229
+msgid "Save 3D model"
+msgstr "保存3D模型"
+
+#: Cura/gui/sceneView.py:276 Cura/gui/sceneView.py:926
+#, python-format
+msgid "Print with %s"
+msgstr "擠出頭尺寸%s"
+
+#: Cura/gui/sceneView.py:280
+msgid "Slice engine log..."
+msgstr "切片引擎日誌..."
+
+#: Cura/gui/sceneView.py:305 Cura/gui/sceneView.py:929
+msgid "Save toolpath"
+msgstr "保存路徑"
+
+#: Cura/gui/sceneView.py:363
+msgid "The slicing engine reported the following"
+msgstr "切片引擎記錄如下"
+
+#: Cura/gui/sceneView.py:363
+msgid "Engine log..."
+msgstr "切片引擎記錄..."
+
+#: Cura/gui/sceneView.py:502
+msgid "How many copies do you want?"
+msgstr "妳需要多少份拷貝?"
+
+#: Cura/gui/sceneView.py:502
+msgid "Number of copies"
+msgstr "拷貝數量"
+
+#: Cura/gui/sceneView.py:502
+msgid "Multiply"
+msgstr "倍增"
+
+#: Cura/gui/sceneView.py:792
+msgid "Center on platform"
+msgstr "居中"
+
+#: Cura/gui/sceneView.py:793
+msgid "Delete object"
+msgstr "刪除物體"
+
+#: Cura/gui/sceneView.py:794
+msgid "Multiply object"
+msgstr "倍增物體"
+
+#: Cura/gui/sceneView.py:795
+msgid "Split object into parts"
+msgstr ""
+
+#: Cura/gui/sceneView.py:797
+msgid "Dual extrusion merge"
+msgstr "雙噴頭組合"
+
+#: Cura/gui/sceneView.py:799
+msgid "Delete all objects"
+msgstr "刪除所有的物體"
+
+#: Cura/gui/sceneView.py:800
+msgid "Reload all objects"
+msgstr "重新加載所有的物體"
+
+#: Cura/gui/sceneView.py:923
+msgid "Toolpath to SD"
+msgstr "拷貝到SD卡"
+
+#: Cura/gui/sceneView.py:1217
+msgid "Overhang view not working due to lack of OpenGL shaders support."
+msgstr "缺少OpenGL陰影支持"
+
+#: Cura/gui/simpleMode.py:19
+msgid "High quality print"
+msgstr "高質量列印"
+
+#: Cura/gui/simpleMode.py:20
+msgid "Normal quality print"
+msgstr "正常效果列印"
+
+#: Cura/gui/simpleMode.py:21
+msgid "Fast low quality print"
+msgstr "快速低質量列印"
+
+#: Cura/gui/simpleMode.py:22
+msgid "Thin walled cup or vase"
+msgstr "薄壁的花瓶或杯子"
+
+#: Cura/gui/simpleMode.py:32
+msgid "Print support structure"
+msgstr "列印支撐"
+
+#: Cura/gui/simpleMode.py:37
+msgid "Select a quickprint profile:"
+msgstr "選擇列印模式:"
+
+#: Cura/gui/simpleMode.py:47
+msgid "Material:"
+msgstr "材料:"
+
+#: Cura/gui/simpleMode.py:51
+msgid "Diameter:"
+msgstr "直徑:"
+
+#: Cura/gui/simpleMode.py:57
+msgid "Other:"
+msgstr "其他:"
+
+#: Cura/gui/simpleMode.py:85
+msgid "Exterior Only"
+msgstr "僅外部"
+
+#: Cura/gui/tools/imageToMesh.py:28
+msgid "Height (mm)"
+msgstr "層厚(mm)"
+
+#: Cura/gui/tools/imageToMesh.py:32
+msgid "Base (mm)"
+msgstr "底層厚度 (mm)"
+
+#: Cura/gui/tools/imageToMesh.py:36
+msgid "Width (mm)"
+msgstr "直徑(mm)"
+
+#: Cura/gui/tools/imageToMesh.py:40
+msgid "Depth (mm)"
+msgstr "直徑(mm)"
+
+#: Cura/gui/tools/youmagineGui.py:78
+msgid "Checking token"
+msgstr "檢查"
+
+#: Cura/gui/tools/youmagineGui.py:82
+msgid "Failed to contact YouMagine.com"
+msgstr "連接YouMagine.com失敗"
+
+#: Cura/gui/tools/youmagineGui.py:82 Cura/gui/tools/youmagineGui.py:116
+#: Cura/gui/tools/youmagineGui.py:133 Cura/gui/tools/youmagineGui.py:140
+#: Cura/gui/tools/youmagineGui.py:148 Cura/gui/tools/youmagineGui.py:153
+msgid "YouMagine error."
+msgstr "YouMagine錯誤."
+
+#: Cura/gui/tools/youmagineGui.py:100
+msgid "Cura is now authorized to share on YouMagine"
+msgstr "Cura現在已經驗證可以在YouMagine上分享."
+
+#: Cura/gui/tools/youmagineGui.py:100
+msgid "YouMagine."
+msgstr ""
+
+#: Cura/gui/tools/youmagineGui.py:112
+msgid "Creating new design on YouMagine..."
+msgstr "YouMagine上創建壹個新的設計..."
+
+#: Cura/gui/tools/youmagineGui.py:116
+msgid "Failed to create a design, nothing uploaded!"
+msgstr "創建設計失敗"
+
+#: Cura/gui/tools/youmagineGui.py:120
+#, python-format
+msgid "Building model %s..."
+msgstr "構建模型 %s..."
+
+#: Cura/gui/tools/youmagineGui.py:131
+#, python-format
+msgid "Uploading model %s..."
+msgstr "上傳模型 %s..."
+
+#: Cura/gui/tools/youmagineGui.py:133 Cura/gui/tools/youmagineGui.py:140
+#: Cura/gui/tools/youmagineGui.py:148
+#, python-format
+msgid "Failed to upload %s!"
+msgstr "上傳失敗 %s!"
+
+#: Cura/gui/tools/youmagineGui.py:137
+#, python-format
+msgid "Uploading file %s..."
+msgstr "上傳文件 %s..."
+
+#: Cura/gui/tools/youmagineGui.py:145
+#, python-format
+msgid "Uploading image %s..."
+msgstr "上傳圖像 %s..."
+
+#: Cura/gui/tools/youmagineGui.py:153
+msgid "Failed to upload snapshot!"
+msgstr "上傳截屏失敗!"
+
+#: Cura/gui/tools/youmagineGui.py:158
+msgid "Publishing design..."
+msgstr "發布設計..."
+
+#: Cura/gui/tools/youmagineGui.py:230
+msgid "Request authorization from YouMagine"
+msgstr "請求YouMagine驗證"
+
+#: Cura/gui/tools/youmagineGui.py:231
+msgid "Paste token here"
+msgstr "粘帖"
+
+#: Cura/gui/tools/youmagineGui.py:237
+msgid ""
+"To share your designs on YouMagine\n"
+"you need an account on YouMagine.com\n"
+"and authorize Cura to access your account."
+msgstr ""
+"期望在YouMagine上分享設計\n"
+"妳需要壹個YouMagine.com帳號\n"
+"然後允許Cura訪問妳的帳號."
+
+#: Cura/gui/tools/youmagineGui.py:239
+msgid ""
+"This will open a browser window where you can\n"
+"authorize Cura to access your YouMagine account.\n"
+"You can revoke access at any time\n"
+"from YouMagine.com"
+msgstr ""
+"這會打開壹個瀏覽器\n"
+"用來驗證YouMagine帳號\n"
+"妳從YouMagine.com\n"
+"可以收回權限"
+
+#: Cura/gui/tools/youmagineGui.py:274
+msgid "Design name"
+msgstr "設計名稱"
+
+#: Cura/gui/tools/youmagineGui.py:278
+msgid "Publish after upload"
+msgstr "上傳後發布"
+
+#: Cura/gui/tools/youmagineGui.py:279
+msgid "Share!"
+msgstr "分享!"
+
+#: Cura/gui/tools/youmagineGui.py:287
+msgid "Add..."
+msgstr "添加..."
+
+#: Cura/gui/tools/youmagineGui.py:289
+msgid "Webcam..."
+msgstr "攝像頭..."
+
+#: Cura/gui/tools/youmagineGui.py:299
+msgid ""
+"Directly publish the design after uploading.\n"
+"Without this check the design will not be public\n"
+"until you publish it yourself on YouMagine.com"
+msgstr ""
+"上傳後直接發布\n"
+"關掉這個選項將不會發布妳的作品\n"
+"直到妳在YouMagine.com上發布"
+
+#: Cura/gui/tools/youmagineGui.py:305
+msgid "Design name:"
+msgstr "作品名稱:"
+
+#: Cura/gui/tools/youmagineGui.py:307
+msgid "Description:"
+msgstr "描述:"
+
+#: Cura/gui/tools/youmagineGui.py:309
+msgid "Category:"
+msgstr "類目:"
+
+#: Cura/gui/tools/youmagineGui.py:311
+msgid "License:"
+msgstr ""
+
+#: Cura/gui/tools/youmagineGui.py:314
+msgid "Images:"
+msgstr "圖像:"
+
+#: Cura/gui/tools/youmagineGui.py:317
+msgid "Related design files:"
+msgstr "相關的設計文件:"
+
+#: Cura/gui/tools/youmagineGui.py:340
+msgid "The name cannot be empty"
+msgstr "作品名稱不能為空"
+
+#: Cura/gui/tools/youmagineGui.py:340 Cura/gui/tools/youmagineGui.py:344
+msgid "New design error."
+msgstr ""
+
+#: Cura/gui/tools/youmagineGui.py:344
+msgid "The description cannot be empty"
+msgstr "描述不能為空"
+
+#: Cura/gui/tools/youmagineGui.py:370
+msgid "No webcam found on your system"
+msgstr "未找到攝像頭"
+
+#: Cura/gui/tools/youmagineGui.py:370
+msgid "Webcam error"
+msgstr "攝像頭錯誤"
+
+#: Cura/gui/util/engineResultView.py:168
+#, python-format
+msgid "Loading toolpath for visualization (%d%%)"
+msgstr "正在加載可視化路徑 (%d%%)"
+
+#: Cura/gui/util/openglGui.py:242
+msgid "An error has occurred during the 3D view drawing."
+msgstr "生成3D視圖出錯"
+
+#: Cura/gui/util/openglGui.py:250
+msgid "3D window error"
+msgstr "3D窗口錯誤"
+
+#: Cura/util/profile.py:170 Cura/util/profile.py:171 Cura/util/profile.py:172
+#: Cura/util/profile.py:200 Cura/util/profile.py:201 Cura/util/profile.py:202
+#: Cura/util/profile.py:204
+msgid "Quality"
+msgstr "質量"
+
+#: Cura/util/profile.py:170
+msgid "Layer height (mm)"
+msgstr "層厚(mm)"
+
+#: Cura/util/profile.py:170
+msgid ""
+"Layer height in millimeters.\n"
+"This is the most important setting to determine the quality of your print. "
+"Normal quality prints are 0.1mm, high quality is 0.06mm. You can go up to "
+"0.25mm with an Ultimaker for very fast prints at low quality."
+msgstr ""
+"層厚(mm), 層厚的單位是毫米。\n"
+"這是影響列印質量最重要的設定。0.1mm用於普通質量的列印。\n"
+"0.05mm用於高質量的列印。0.2mm用於高速低質量的列印。"
+
+#: Cura/util/profile.py:171
+msgid "Shell thickness (mm)"
+msgstr "壁厚(mm)"
+
+#: Cura/util/profile.py:171
+msgid ""
+"Thickness of the outside shell in the horizontal direction.\n"
+"This is used in combination with the nozzle size to define the number\n"
+"of perimeter lines and the thickness of those perimeter lines."
+msgstr ""
+"橫向的外壁的厚度\n"
+"這個參數和噴嘴大小壹起使用\n"
+"用於計算外壁的長度和厚度"
+
+#: Cura/util/profile.py:172
+msgid "Enable retraction"
+msgstr "允許反抽"
+
+#: Cura/util/profile.py:172
+msgid ""
+"Retract the filament when the nozzle is moving over a none-printed area. "
+"Details about the retraction can be configured in the advanced tab."
+msgstr "在非列印區域時回滾絲料。具體的設定可以在高級列印設置菜單中設置。"
+
+#: Cura/util/profile.py:173 Cura/util/profile.py:174
+msgid "Fill"
+msgstr "填充"
+
+#: Cura/util/profile.py:173
+msgid "Bottom/Top thickness (mm)"
+msgstr "底部/頂部厚度(mm)"
+
+#: Cura/util/profile.py:173
+msgid ""
+"This controls the thickness of the bottom and top layers, the amount of "
+"solid layers put down is calculated by the layer thickness and this value.\n"
+"Having this value a multiple of the layer thickness makes sense. And keep it "
+"near your wall thickness to make an evenly strong part."
+msgstr ""
+"此項設置用來設置頂層和底層的厚度,頂部和底部那些實心填充層的計算來自於這個數"
+"字\n"
+"所以最好這個厚度是層厚的倍數,同時盡量和外壁厚度保持壹致,使得物體更堅固"
+
+#: Cura/util/profile.py:174
+msgid "Fill Density (%)"
+msgstr "填充率(%)"
+
+#: Cura/util/profile.py:174
+msgid ""
+"This controls how densely filled the insides of your print will be. For a "
+"solid part use 100%, for an empty part use 0%. A value around 20% is usually "
+"enough.\n"
+"This won't affect the outside of the print and only adjusts how strong the "
+"part becomes."
+msgstr ""
+"此項設置用來控制內部填充.想列印壹個堅固的物體使用100%,中空的物體使用0%.壹般來"
+"說20%足夠了.\n"
+"這個設置不會影響物體外壁的列印,只會影響物體的堅固度."
+
+#: Cura/util/profile.py:175
+msgid ""
+"The nozzle size is very important, this is used to calculate the line width "
+"of the infill, and used to calculate the amount of outside wall lines and "
+"thickness for the wall thickness you entered in the print settings."
+msgstr "噴嘴的大小非常重要,用來計算填充和壁厚"
+
+#: Cura/util/profile.py:176 Cura/util/profile.py:177 Cura/util/profile.py:178
+#: Cura/util/profile.py:179 Cura/util/profile.py:180 Cura/util/profile.py:181
+msgid "Speed and Temperature"
+msgstr "速度與溫度"
+
+#: Cura/util/profile.py:176
+msgid "Print speed (mm/s)"
+msgstr "列印速度(mm/s)"
+
+#: Cura/util/profile.py:176
+msgid ""
+"Speed at which printing happens. A well adjusted Ultimaker can reach 150mm/"
+"s, but for good quality prints you want to print slower. Printing speed "
+"depends on a lot of factors. So you will be experimenting with optimal "
+"settings for this."
+msgstr ""
+"列印的速度,壹個調校很好的機器可以達到150mm/s,但是想確保質量請使用較低的速度打"
+"印.列印速度取決於很多因素,所以妳最好選取不同的速度做下實現"
+
+#: Cura/util/profile.py:177
+msgid "Printing temperature (C)"
+msgstr "列印溫度(C)"
+
+#: Cura/util/profile.py:177 Cura/util/profile.py:178 Cura/util/profile.py:179
+#: Cura/util/profile.py:180
+msgid ""
+"Temperature used for printing. Set at 0 to pre-heat yourself.\n"
+"For PLA a value of 210C is usually used.\n"
+"For ABS a value of 230C or higher is required."
+msgstr ""
+"列印溫度,如果妳想自己預加熱請設置成0\n"
+"PLA壹般使用180-210C之間的溫度\n"
+"ABS壹般使用230C\n"
+"."
+
+#: Cura/util/profile.py:178
+msgid "2nd nozzle temperature (C)"
+msgstr ""
+
+#: Cura/util/profile.py:179
+msgid "3th nozzle temperature (C)"
+msgstr ""
+
+#: Cura/util/profile.py:180
+msgid "4th nozzle temperature (C)"
+msgstr ""
+
+#: Cura/util/profile.py:181
+msgid "Bed temperature (C)"
+msgstr "熱盤溫度(C)"
+
+#: Cura/util/profile.py:181
+msgid ""
+"Temperature used for the heated printer bed. Set at 0 to pre-heat yourself."
+msgstr "列印時熱盤的溫度,自己預加熱請設置成0"
+
+#: Cura/util/profile.py:182 Cura/util/profile.py:183
+msgid "None"
+msgstr ""
+
+#: Cura/util/profile.py:182
+msgid "Touching buildplate"
+msgstr ""
+
+#: Cura/util/profile.py:182
+msgid "Everywhere"
+msgstr ""
+
+#: Cura/util/profile.py:182 Cura/util/profile.py:183 Cura/util/profile.py:184
+#: Cura/util/profile.py:224 Cura/util/profile.py:225 Cura/util/profile.py:226
+#: Cura/util/profile.py:227 Cura/util/profile.py:228
+msgid "Support"
+msgstr "支撐"
+
+#: Cura/util/profile.py:182
+msgid "Support type"
+msgstr "支撐類型"
+
+#: Cura/util/profile.py:182
+msgid ""
+"Type of support structure build.\n"
+"\"Touching buildplate\" is the most commonly used support setting.\n"
+"\n"
+"None does not do any support.\n"
+"Touching buildplate only creates support where the support structure will "
+"touch the build platform.\n"
+"Everywhere creates support even on top of parts of the model."
+msgstr ""
+"使用支撐的類型.\n"
+"\"Touching buildplate\":最常用的支撐類型.\n"
+"\n"
+"\"無\":不使用支撐.\n"
+"\"僅外部\" 用於創建那些與平臺接觸的支撐結構.\n"
+"\"任何部位\" 意思是即使物體內部也使用支撐結構"
+
+#: Cura/util/profile.py:183 Cura/util/profile.py:232
+msgid "Brim"
+msgstr ""
+
+#: Cura/util/profile.py:183 Cura/util/profile.py:233 Cura/util/profile.py:234
+#: Cura/util/profile.py:235 Cura/util/profile.py:236 Cura/util/profile.py:237
+#: Cura/util/profile.py:238 Cura/util/profile.py:239 Cura/util/profile.py:240
+msgid "Raft"
+msgstr ""
+
+#: Cura/util/profile.py:183
+msgid "Platform adhesion type"
+msgstr "平臺附著類型"
+
+#: Cura/util/profile.py:183
+msgid ""
+"Different options that help in preventing corners from lifting due to "
+"warping.\n"
+"Brim adds a single layer thick flat area around your object which is easy to "
+"cut off afterwards, and it is the recommended option.\n"
+"Raft adds a thick raster below the object and a thin interface between this "
+"and your object.\n"
+"(Note that enabling the brim or raft disables the skirt)"
+msgstr ""
+"不同的選項協助處理由於變形而導致的翹邊.\n"
+"\"Brim\" 只是在妳的物體周邊增加壹層厚厚的底座便於以後的去除，建議使用這個選"
+"項。\n"
+"\"Raft\"是在物體下方增加壹個厚的柵欄還有在這裏和物體中間增加壹個薄的接觸"
+"面。\n"
+"(註意用\"Brim\"或\"Raft\"會使邊緣失效)"
+
+#: Cura/util/profile.py:184
+msgid "Both"
+msgstr "兩者"
+
+#: Cura/util/profile.py:184
+msgid "First extruder"
+msgstr "第壹個擠出頭"
+
+#: Cura/util/profile.py:184
+msgid "Second extruder"
+msgstr "第二個擠出頭"
+
+#: Cura/util/profile.py:184
+msgid "Support dual extrusion"
+msgstr "第二列印頭列印支撐"
+
+#: Cura/util/profile.py:184
+msgid ""
+"Which extruder to use for support material, for break-away support you can "
+"use both extruders.\n"
+"But if one of the materials is more expensive then the other you could "
+"select an extruder to use for support material. This causes more extruder "
+"switches.\n"
+"You can also use the 2nd extruder for soluble support materials."
+msgstr ""
+"哪個噴嘴用來列印支撐，對於直接剝離的，任意噴嘴都可以\n"
+"但是如果某個材料比較貴重,妳可以選擇另外壹個用來用作支撐,這會導致更多的噴頭切"
+"換\n"
+"妳還可以用第二噴嘴來列印水溶性支撐"
+
+#: Cura/util/profile.py:185 Cura/util/profile.py:186 Cura/util/profile.py:187
+msgid "Dual extrusion"
+msgstr "雙頭重疊(mm)"
+
+#: Cura/util/profile.py:185
+msgid "Wipe&prime tower"
+msgstr ""
+
+#: Cura/util/profile.py:185
+msgid ""
+"The wipe-tower is a tower printed on every layer when switching between "
+"nozzles.\n"
+"The old nozzle is wiped off on the tower before the new nozzle is used to "
+"print the 2nd color."
+msgstr ""
+
+#: Cura/util/profile.py:186
+msgid "Wipe&prime tower volume per layer (mm3)"
+msgstr ""
+
+#: Cura/util/profile.py:186
+msgid ""
+"The amount of material put in the wipe/prime tower.\n"
+"This is done in volume because in general you want to extrude a\n"
+"certain amount of volume to get the extruder going, independent on the layer "
+"height.\n"
+"This means that with thinner layers, your tower gets bigger."
+msgstr ""
+
+#: Cura/util/profile.py:187
+msgid "Ooze shield"
+msgstr "溢出保護"
+
+#: Cura/util/profile.py:187
+msgid ""
+"The ooze shield is a 1 line thick shell around the object which stands a few "
+"mm from the object.\n"
+"This shield catches any oozing from the unused nozzle in dual-extrusion."
+msgstr ""
+"溢出保護是壹條幾毫米的厚壁\n"
+"這個壁在雙噴頭列印的時候抓去那些無用的漏液"
+
+#: Cura/util/profile.py:188 Cura/util/profile.py:189 Cura/util/profile.py:190
+#: Cura/util/profile.py:191 Cura/util/profile.py:192
+msgid "Filament"
+msgstr "耗材"
+
+#: Cura/util/profile.py:188
+msgid "Diameter (mm)"
+msgstr "直徑(mm)"
+
+#: Cura/util/profile.py:188
+msgid ""
+"Diameter of your filament, as accurately as possible.\n"
+"If you cannot measure this value you will have to calibrate it, a higher "
+"number means less extrusion, a smaller number generates more extrusion."
+msgstr ""
+"耗材的直徑,請盡量精確\n"
+"如果妳不能確定這個數值,那麽妳可能需要壹些調校,更低的數值會有更多的料擠出,而更"
+"高的數值會有更少的料擠出"
+
+#: Cura/util/profile.py:189
+msgid "Diameter2 (mm)"
+msgstr "直徑2 (mm)"
+
+#: Cura/util/profile.py:189
+msgid ""
+"Diameter of your filament for the 2nd nozzle. Use 0 to use the same diameter "
+"as for nozzle 1."
+msgstr ""
+"2號列印頭的耗材的直徑,請盡量精確\n"
+"如果妳不能確定這個數值,那麽妳可能需要壹些調校,更低的數值會有更多的料擠出,而更"
+"高的數值會有更少的料擠出如果和1號列印頭壹樣,請設置成0"
+
+#: Cura/util/profile.py:190
+msgid "Diameter3 (mm)"
+msgstr "直徑3 (mm)"
+
+#: Cura/util/profile.py:190
+msgid ""
+"Diameter of your filament for the 3th nozzle. Use 0 to use the same diameter "
+"as for nozzle 1."
+msgstr ""
+"3號列印頭的耗材的直徑,請盡量精確\n"
+"如果妳不能確定這個數值,那麽妳可能需要壹些調校,更低的數值會有更多的料擠出,而更"
+"高的數值會有更少的料擠出如果和1號列印頭壹樣,請設置成0"
+
+#: Cura/util/profile.py:191
+msgid "Diameter4 (mm)"
+msgstr "直徑4 (mm)"
+
+#: Cura/util/profile.py:191
+msgid ""
+"Diameter of your filament for the 4th nozzle. Use 0 to use the same diameter "
+"as for nozzle 1."
+msgstr ""
+"4號列印頭的耗材的直徑,請盡量精確\n"
+"如果妳不能確定這個數值,那麽妳可能需要壹些調校,更低的數值會有更多的料擠出,而更"
+"高的數值會有更少的料擠出如果和1號列印頭壹樣,請設置成0"
+
+#: Cura/util/profile.py:192
+msgid "Flow (%)"
+msgstr "流量(%)"
+
+#: Cura/util/profile.py:192
+msgid ""
+"Flow compensation, the amount of material extruded is multiplied by this "
+"value"
+msgstr "流量補償,最終擠出速度會乘上這個值"
+
+#: Cura/util/profile.py:193 Cura/util/profile.py:194 Cura/util/profile.py:195
+#: Cura/util/profile.py:196 Cura/util/profile.py:197 Cura/util/profile.py:198
+#: Cura/util/profile.py:199
+msgid "Retraction"
+msgstr "反轉"
+
+#: Cura/util/profile.py:193
+msgid "Speed (mm/s)"
+msgstr "反轉速度(mm/s)"
+
+#: Cura/util/profile.py:193
+msgid ""
+"Speed at which the filament is retracted, a higher retraction speed works "
+"better. But a very high retraction speed can lead to filament grinding."
+msgstr "反轉的速度,較高的速度工作起來更好,不過速度太高可能會導致卡料"
+
+#: Cura/util/profile.py:194
+msgid "Distance (mm)"
+msgstr "反轉長度(mm/s)"
+
+#: Cura/util/profile.py:194
+msgid ""
+"Amount of retraction, set at 0 for no retraction at all. A value of 4.5mm "
+"seems to generate good results."
+msgstr "回抽的數量,0為不使用回抽,壹般4.5mm會有比較好的效果"
+
+#: Cura/util/profile.py:195
+msgid "Dual extrusion switch amount (mm)"
+msgstr "雙噴頭切換回抽量 (mm)"
+
+#: Cura/util/profile.py:195
+msgid ""
+"Amount of retraction when switching nozzle with dual-extrusion, set at 0 for "
+"no retraction at all. A value of 16.0mm seems to generate good results."
+msgstr "雙噴頭切換時回抽的量,0為不回抽,16mm的效果比較不錯(依機器而定)"
+
+#: Cura/util/profile.py:196
+msgid "Minimum travel (mm)"
+msgstr "最小移動距離 (mm)"
+
+#: Cura/util/profile.py:196
+msgid ""
+"Minimum amount of travel needed for a retraction to happen at all. To make "
+"sure you do not get a lot of retractions in a small area."
+msgstr "回抽使用的最小的移動間隔,用來防止在壹個很小的範圍內不停的使用回抽"
+
+#: Cura/util/profile.py:197
+msgid "Enable combing"
+msgstr "允許combing"
+
+#: Cura/util/profile.py:197
+msgid ""
+"Combing is the act of avoiding holes in the print for the head to travel "
+"over. If combing is disabled the printer head moves straight from the start "
+"point to the end point and it will always retract."
+msgstr ""
+"Combing是用來防止當噴頭非列印移動時候導致列印漏洞,如果不啟用Combing.噴頭非打"
+"印移動的時候壹般會回抽"
+
+#: Cura/util/profile.py:198
+msgid "Minimal extrusion before retracting (mm)"
+msgstr "回抽前最小擠出量 (mm)"
+
+#: Cura/util/profile.py:198
+msgid ""
+"The minimal amount of extrusion that needs to be done before retracting "
+"again if a retraction needs to happen before this minimal is reached the "
+"retraction is ignored.\n"
+"This avoids retracting a lot on the same piece of filament which flattens "
+"the filament and causes grinding issues."
+msgstr ""
+"最小擠出量壹般使用在回抽需要反復發生的時候\n"
+"它可以避免那些頻繁回抽導致的耗材挖坑現象"
+
+#: Cura/util/profile.py:199
+msgid "Z hop when retracting (mm)"
+msgstr "回抽時Z跳動 (mm)"
+
+#: Cura/util/profile.py:199
+msgid ""
+"When a retraction is done, the head is lifted by this amount to travel over "
+"the print. A value of 0.075 works well. This feature has a lot of positive "
+"effect on delta towers."
+msgstr ""
+"當反抽的時候，頂部翹起超過列印的總額，0.075的數值能工作得更好。\n"
+"這個功能在三角塔結構能讓效果更好"
+
+#: Cura/util/profile.py:200
+msgid "Initial layer thickness (mm)"
+msgstr "初始層高度(mm)"
+
+#: Cura/util/profile.py:200
+msgid ""
+"Layer thickness of the bottom layer. A thicker bottom layer makes sticking "
+"to the bed easier. Set to 0.0 to have the bottom layer thickness the same as "
+"the other layers."
+msgstr ""
+"底層的厚度,壹個更厚的厚度可以使底層粘的更牢,設置成0.0如果使用的是和其他層壹樣"
+"的厚度"
+
+#: Cura/util/profile.py:201
+#, fuzzy
+msgid "Initial layer line width (%)"
+msgstr "接口層線寬 (mm)"
+
+#: Cura/util/profile.py:201
+msgid ""
+"Extra width factor for the extrusion on the first layer, on some printers "
+"it's good to have wider extrusion on the first layer to get better bed "
+"adhesion."
+msgstr ""
+
+#: Cura/util/profile.py:202
+msgid "Cut off object bottom (mm)"
+msgstr "切除底部(mm)"
+
+#: Cura/util/profile.py:202
+msgid ""
+"Sinks the object into the platform, this can be used for objects that do not "
+"have a flat bottom and thus create a too small first layer."
+msgstr "讓物體下層的平臺中,壹般用於那些底面不平,和平臺接觸面很小的物體"
+
+#: Cura/util/profile.py:204
+msgid "Dual extrusion overlap (mm)"
+msgstr "雙頭重疊(mm)"
+
+#: Cura/util/profile.py:204
+msgid ""
+"Add a certain amount of overlapping extrusion on dual-extrusion prints. This "
+"bonds the different colors together."
+msgstr ""
+"雙頭列印的時候添加壹定的重復擠壓量，這會使得兩種顏色能更好的結合在壹起。"
+
+#: Cura/util/profile.py:205 Cura/util/profile.py:206 Cura/util/profile.py:207
+#: Cura/util/profile.py:208 Cura/util/profile.py:209
+msgid "Speed"
+msgstr "速度"
+
+#: Cura/util/profile.py:205
+msgid "Travel speed (mm/s)"
+msgstr "移動速度(mm/s)"
+
+#: Cura/util/profile.py:205
+#, fuzzy
+msgid ""
+"Speed at which travel moves are done, a well built Ultimaker can reach "
+"speeds of 250mm/s. But some machines might miss steps then."
+msgstr ""
+"列印時的移動速度,質量好的機器速度可以達到250mm/s,但是有些機器可能會丟步"
+
+#: Cura/util/profile.py:206
+msgid "Bottom layer speed (mm/s)"
+msgstr "底層列印速度"
+
+#: Cura/util/profile.py:206
+msgid ""
+"Print speed for the bottom layer, you want to print the first layer slower "
+"so it sticks better to the printer bed."
+msgstr "列印第壹層時速度,壹般選用比較低的速度,來保證牢牢的貼在底面"
+
+#: Cura/util/profile.py:207
+msgid "Infill speed (mm/s)"
+msgstr "填充速度(mm/s)"
+
+#: Cura/util/profile.py:207
+msgid ""
+"Speed at which infill parts are printed. If set to 0 then the print speed is "
+"used for the infill. Printing the infill faster can greatly reduce printing "
+"time, but this can negatively affect print quality."
+msgstr ""
+"列印填充部分的速度。如果設置成0，那麽列印速度就是填充速度。\n"
+"填充列印快壹點，可以減少列印時間，但是這也會降低列印質量。"
+
+#: Cura/util/profile.py:208
+msgid "Outer shell speed (mm/s)"
+msgstr "外壁速度(mm/s)"
+
+#: Cura/util/profile.py:208
+msgid ""
+"Speed at which outer shell is printed. If set to 0 then the print speed is "
+"used. Printing the outer shell at a lower speed improves the final skin "
+"quality. However, having a large difference between the inner shell speed "
+"and the outer shell speed will effect quality in a negative way."
+msgstr ""
+"列印填充部分的速度。如果設置成0，那麽列印速度就是外壁列印速度。\n"
+"用低速來列印外壁可以讓提高外層的品質。然而，內壁和外壁速度差異\n"
+"太大反而會讓列印質量變得更差"
+
+#: Cura/util/profile.py:209
+msgid "Inner shell speed (mm/s)"
+msgstr "內壁速度(mm/s)"
+
+#: Cura/util/profile.py:209
+msgid ""
+"Speed at which inner shells are printed. If set to 0 then the print speed is "
+"used. Printing the inner shell faster then the outer shell will reduce "
+"printing time. It is good to set this somewhere in between the outer shell "
+"speed and the infill/printing speed."
+msgstr ""
+"列印內部時的速度,如果設置成0，那麽列印速度就是內壁列印速度。\n"
+"內壁列印快壹點，那麽將縮小外壁列印時間。最好設置在外壁列印速度\n"
+"和填充/列印速度之間。"
+
+#: Cura/util/profile.py:210 Cura/util/profile.py:211 Cura/util/profile.py:216
+#: Cura/util/profile.py:217 Cura/util/profile.py:218 Cura/util/profile.py:219
+#: Cura/util/profile.py:220
+msgid "Cool"
+msgstr "冷卻設定"
+
+#: Cura/util/profile.py:210
+msgid "Minimal layer time (sec)"
+msgstr "層最小列印時間(sec)"
+
+#: Cura/util/profile.py:210
+msgid ""
+"Minimum time spent in a layer, gives the layer time to cool down before the "
+"next layer is put on top. If the layer will be placed down too fast the "
+"printer will slow down to make sure it has spent at least this amount of "
+"seconds printing this layer."
+msgstr ""
+"每層列印的最小時間，在這層冷卻之前到下壹層疊加上去。\n"
+"如果打某層列印太快，列印機將放慢速度確保花費最少的時間\n"
+"列印這壹層。"
+
+#: Cura/util/profile.py:211
+msgid "Enable cooling fan"
+msgstr "打開噴嘴冷卻風扇"
+
+#: Cura/util/profile.py:211
+msgid ""
+"Enable the cooling fan during the print. The extra cooling from the cooling "
+"fan is essential during faster prints."
+msgstr "列印時使用風扇.如果想要更高速的列印,必須外加冷卻風扇進行冷卻"
+
+#: Cura/util/profile.py:213
+msgid "Line count"
+msgstr "外圍線數"
+
+#: Cura/util/profile.py:213
+msgid ""
+"The skirt is a line drawn around the object at the first layer. This helps "
+"to prime your extruder, and to see if the object fits on your platform.\n"
+"Setting this to 0 will disable the skirt. Multiple skirt lines can help "
+"priming your extruder better for small objects."
+msgstr ""
+"skirt是那條在模型外的線,用來顯示妳模型的周長,是不是符合列印平臺的大小\n"
+"0為不使用,多條外圍可以使得妳的很小的物體更容易分辨"
+
+#: Cura/util/profile.py:214
+msgid "Start distance (mm)"
+msgstr "起始距離 (mm)"
+
+#: Cura/util/profile.py:214
+msgid ""
+"The distance between the skirt and the first layer.\n"
+"This is the minimal distance, multiple skirt lines will be put outwards from "
+"this distance."
+msgstr ""
+"和第壹層的距離\n"
+"這個是最小值,多條外圍線將往外的方向擴展"
+
+#: Cura/util/profile.py:215
+msgid "Minimal length (mm)"
+msgstr "最小長度 (mm)"
+
+#: Cura/util/profile.py:215
+msgid ""
+"The minimal length of the skirt, if this minimal length is not reached it "
+"will add more skirt lines to reach this minimal lenght.\n"
+"Note: If the line count is set to 0 this is ignored."
+msgstr ""
+"skirt的最小程度,如果最小長度沒達到,那麽skirt的數量將會增加,來達到這個最小長"
+"度\n"
+"註意: 如果skirt數為0,這個選項將被忽略"
+
+#: Cura/util/profile.py:216
+msgid "Fan full on at height (mm)"
+msgstr "這個高度風扇全速運行(mm)"
+
+#: Cura/util/profile.py:216
+msgid ""
+"The height at which the fan is turned on completely. For the layers below "
+"this the fan speed is scaled linearly with the fan off at layer 0."
+msgstr "這個高度風扇全速開啟。在這層下面風扇轉速隨著0層關閉呈線性關系"
+
+#: Cura/util/profile.py:217
+msgid "Fan speed min (%)"
+msgstr "最小風扇速度 (%)"
+
+#: Cura/util/profile.py:217
+msgid ""
+"When the fan is turned on, it is enabled at this speed setting. If cool "
+"slows down the layer, the fan is adjusted between the min and max speed. "
+"Minimal fan speed is used if the layer is not slowed down due to cooling."
+msgstr ""
+"當風扇打開的時候,它的起始速度為此設置。如果某層需要冷卻,風扇速度將會在低速和"
+"高速中調節,這個速度將在不需要冷卻的層中使用。"
+
+#: Cura/util/profile.py:218
+msgid "Fan speed max (%)"
+msgstr "最大風扇速度 (%)"
+
+#: Cura/util/profile.py:218
+msgid ""
+"When the fan is turned on, it is enabled at this speed setting. If cool "
+"slows down the layer, the fan is adjusted between the min and max speed. "
+"Maximal fan speed is used if the layer is slowed down due to cooling by more "
+"than 200%."
+msgstr ""
+"當風扇打開的時候,它的起始速度為此設置。如果某層需要冷卻,風扇速度將會在低速和"
+"高速中調節,這個速度將在那些需要200%冷卻的層中使用。"
+
+#: Cura/util/profile.py:219
+msgid "Minimum speed (mm/s)"
+msgstr "最小速度 (mm/s)"
+
+#: Cura/util/profile.py:219
+msgid ""
+"The minimal layer time can cause the print to slow down so much it starts to "
+"ooze. The minimal feedrate protects against this. Even if a print gets "
+"slowed down it will never be slower than this minimal speed."
+msgstr ""
+"最少層時間可能會到使機器列印速度下降,從而導致漏液.這個最小送料速度保護用來防"
+"範這個問題靠減速來獲得冷卻效果時，速度不可低於這個設定值."
+
+#: Cura/util/profile.py:220
+msgid "Cool head lift"
+msgstr "為冷卻把列印頭上升"
+
+#: Cura/util/profile.py:220
+msgid ""
+"Lift the head if the minimal speed is hit because of cool slowdown, and wait "
+"the extra time so the minimal layer time is always hit."
+msgstr ""
+"如果列印機按最小速度運行時因為散熱放緩要擡起列印頭，然後再過些時間，才能保證"
+"每層按最少列印時間持續運行"
+
+#: Cura/util/profile.py:221 Cura/util/profile.py:222 Cura/util/profile.py:223
+msgid "Infill"
+msgstr "填充"
+
+#: Cura/util/profile.py:221
+msgid "Solid infill top"
+msgstr "頂部實心填充"
+
+#: Cura/util/profile.py:221
+msgid ""
+"Create a solid top surface, if set to false the top is filled with the fill "
+"percentage. Useful for cups/vases."
+msgstr ""
+"列印壹個堅實的頂部表面,如果不勾選,將會以設置的填充比例列印.對於列印花瓶等比較"
+"有用"
+
+#: Cura/util/profile.py:222
+msgid "Solid infill bottom"
+msgstr "底部實心填充"
+
+#: Cura/util/profile.py:222
+msgid ""
+"Create a solid bottom surface, if set to false the bottom is filled with the "
+"fill percentage. Useful for buildings."
+msgstr ""
+"列印壹個堅實的底部,如果關閉則會根據填充比例填充,當列印建築類的時候比較有用"
+
+#: Cura/util/profile.py:223
+msgid "Infill overlap (%)"
+msgstr "填充交叉 (%)"
+
+#: Cura/util/profile.py:223
+msgid ""
+"Amount of overlap between the infill and the walls. There is a slight "
+"overlap with the walls and the infill so the walls connect firmly to the "
+"infill."
+msgstr ""
+"內部填充和外表面的交叉程度,填充和外表面交叉有助於提升外表面和填充的連接堅固性"
+
+#: Cura/util/profile.py:224
+msgid "Structure type"
+msgstr "支撐結構類型"
+
+#: Cura/util/profile.py:224
+msgid ""
+"The type of support structure.\n"
+"Grid is very strong and can come off in 1 piece, however, sometimes it is "
+"too strong.\n"
+"Lines are single walled lines that break off one at a time. Which is more "
+"work to remove, but as it is less strong it does work better on tricky "
+"prints."
+msgstr ""
+"Grid 是壹種非常牢固而且是連成壹片的剝離支撐，然而，有時這種支撐太牢固了。\n"
+"Lines是壹種單壹的像圍墻壹樣的線條所以能逐個剝離。這種剝支撐的時間更久，但是"
+"因\n"
+"為這種沒有那麽牢固，所以在列印復雜模型時用這種支撐會列印得更好"
+
+#: Cura/util/profile.py:225
+msgid "Overhang angle for support (deg)"
+msgstr "支撐角度（度）"
+
+#: Cura/util/profile.py:225
+msgid ""
+"The minimal angle that overhangs need to have to get support. With 0 degree "
+"being horizontal and 90 degree being vertical."
+msgstr "懸空必須加支撐的最小角度。0度是水平，90度是垂直。"
+
+#: Cura/util/profile.py:226
+msgid "Fill amount (%)"
+msgstr "填充數量 (%)"
+
+#: Cura/util/profile.py:226
+#, python-format
+msgid ""
+"Amount of infill structure in the support material, less material gives "
+"weaker support which is easier to remove. 15% seems to be a good average."
+msgstr ""
+"列印支撐結構的時候使用填充材料的數量。材料越少，支撐就越薄，剝離的時候越容"
+"易。15%似乎是不錯的平均值。"
+
+#: Cura/util/profile.py:227
+msgid "Distance X/Y (mm)"
+msgstr "X/Y距離 (mm)"
+
+#: Cura/util/profile.py:227
+msgid ""
+"Distance of the support material from the print, in the X/Y directions.\n"
+"0.7mm gives a nice distance from the print so the support does not stick to "
+"the print."
+msgstr ""
+"支撐材料在X/Y方向和物體的距離\n"
+"0.7mm 是壹個比較合適的支撐距離,這樣支撐和列印物體不會黏在壹起"
+
+#: Cura/util/profile.py:228
+msgid "Distance Z (mm)"
+msgstr "Z距離 (mm)"
+
+#: Cura/util/profile.py:228
+msgid ""
+"Distance from the top/bottom of the support to the print. A small gap here "
+"makes it easier to remove the support but makes the print a bit uglier.\n"
+"0.15mm gives a good seperation of the support material."
+msgstr ""
+"支撐在Z方向和列印物體的底部和頂部距離,壹個小的間距可以讓支撐容易被取掉，但是"
+"會導致列印效果變差\n"
+"0.15mm是壹個比較好的設置"
+
+#: Cura/util/profile.py:229
+msgid "Spiralize the outer contour"
+msgstr "外部輪廓啟用Spiralize"
+
+#: Cura/util/profile.py:229
+#, fuzzy
+msgid ""
+"Spiralize is smoothing out the Z move of the outer edge. This will create a "
+"steady Z increase over the whole print. This feature turns a solid object "
+"into a single walled print with a solid bottom.\n"
+"This feature used to be called Joris in older versions."
+msgstr "Spiralize是壹個在Z方向幫助列印光滑的功能,它在整個列印過程中會穩固增加Z"
+
+#: Cura/util/profile.py:230
+msgid "Only follow mesh surface"
+msgstr ""
+
+#: Cura/util/profile.py:230
+msgid ""
+"Only follow the mesh surfaces of the 3D model, do not do anything else. No "
+"infill, no top/bottom, nothing."
+msgstr ""
+
+#: Cura/util/profile.py:232
+msgid "Brim line amount"
+msgstr "Brim列印數量"
+
+#: Cura/util/profile.py:232
+msgid ""
+"The amount of lines used for a brim, more lines means a larger brim which "
+"sticks better, but this also makes your effective print area smaller."
+msgstr ""
+"使用Brim的數量,越大的數字能使妳列印的物體更容易粘在平臺上,但同時會縮小可用打"
+"印區域"
+
+#: Cura/util/profile.py:233
+msgid "Extra margin (mm)"
+msgstr "補充的邊緣"
+
+#: Cura/util/profile.py:233
+msgid ""
+"If the raft is enabled, this is the extra raft area around the object which "
+"is also rafted. Increasing this margin will create a stronger raft while "
+"using more material and leaving less area for your print."
+msgstr ""
+"如果選擇raft底座，會在物體的周邊也補充柵欄。增加這些邊緣將使raft底座更加牢"
+"固，然而這會耗費更多的材料而且減少妳的列印區域."
+
+#: Cura/util/profile.py:234
+msgid "Line spacing (mm)"
+msgstr "線條間隔 (mm)"
+
+#: Cura/util/profile.py:234
+msgid ""
+"When you are using the raft this is the distance between the centerlines of "
+"the raft line."
+msgstr "當使用底座的時候,這個數字用來設置距離中心線的距離"
+
+#: Cura/util/profile.py:235
+msgid "Base thickness (mm)"
+msgstr "底層厚度 (mm)"
+
+#: Cura/util/profile.py:235
+msgid ""
+"When you are using the raft this is the thickness of the base layer which is "
+"put down."
+msgstr "當妳用raft這個選項的時候，列印時的底層厚度。"
+
+#: Cura/util/profile.py:236
+msgid "Base line width (mm)"
+msgstr "底層線寬 (mm)"
+
+#: Cura/util/profile.py:236
+msgid ""
+"When you are using the raft this is the width of the base layer lines which "
+"are put down."
+msgstr "當妳用raft這個選項的時候，列印時底層的線寬。"
+
+#: Cura/util/profile.py:237
+msgid "Interface thickness (mm)"
+msgstr "接口層厚度 (mm)"
+
+#: Cura/util/profile.py:237
+msgid ""
+"When you are using the raft this is the thickness of the interface layer "
+"which is put down."
+msgstr "當妳用raft這個選項的時候，列印時連接層的厚度。"
+
+#: Cura/util/profile.py:238
+msgid "Interface line width (mm)"
+msgstr "接口層線寬 (mm)"
+
+#: Cura/util/profile.py:238
+msgid ""
+"When you are using the raft this is the width of the interface layer lines "
+"which are put down."
+msgstr "當妳用raft這個選項的時候，列印時連接層的寬度。"
+
+#: Cura/util/profile.py:239
+msgid "Airgap"
+msgstr ""
+
+#: Cura/util/profile.py:239
+msgid ""
+"Gap between the last layer of the raft and the first printing layer. A small "
+"gap of 0.2mm works wonders on PLA and makes the raft easy to remove."
+msgstr ""
+
+#: Cura/util/profile.py:240
+msgid "Surface layers"
+msgstr ""
+
+#: Cura/util/profile.py:240
+msgid ""
+"Amount of surface layers put on top of the raft, these are fully filled "
+"layers on which the model is printed."
+msgstr ""
+
+#: Cura/util/profile.py:241 Cura/util/profile.py:242 Cura/util/profile.py:243
+#: Cura/util/profile.py:244
+msgid "Fix horrible"
+msgstr "修正"
+
+#: Cura/util/profile.py:241
+msgid "Combine everything (Type-A)"
+msgstr "組合所有列印物體(A類型)"
+
+#: Cura/util/profile.py:241 Cura/util/profile.py:242
+msgid ""
+"This expert option adds all parts of the model together. The result is "
+"usually that internal cavities disappear. Depending on the model this can be "
+"intended or not. Enabling this option is at your own risk. Type-A is "
+"dependent on the model normals and tries to keep some internal holes intact. "
+"Type-B ignores all internal holes and only keeps the outside shape per layer."
+msgstr ""
+"這個專家選項把模型的各部分都結合在壹起。結果通常是內部孔腔消失了。\n"
+"這能否達到預期效果取決於模型。使用這個選項發風險需要妳自行承擔。\n"
+"Type-A 依靠模型規範並試圖保持壹些內孔的完整，Type-B忽略所有的內孔，只保持每壹"
+"層的外形。"
+
+#: Cura/util/profile.py:242
+msgid "Combine everything (Type-B)"
+msgstr "組合所有列印物體(B類型)"
+
+#: Cura/util/profile.py:243
+msgid "Keep open faces"
+msgstr "保持開放表面"
+
+#: Cura/util/profile.py:243
+msgid ""
+"This expert option keeps all the open bits of the model intact. Normally "
+"Cura tries to stitch up small holes and remove everything with big holes, "
+"but this option keeps bits that are not properly part of anything and just "
+"goes with whatever is left. This option is usually not what you want, but it "
+"might enable you to slice models otherwise failing to produce proper paths.\n"
+"As with all \"Fix horrible\" options, results may vary and use at your own "
+"risk."
+msgstr ""
+"這個專家選項保持模型所有缺口處是完整的。通常cura會嘗試修復小孔，並清除所有的"
+"大孔。\n"
+"但是這個選項為了和留下的部分匹配會保持壹些不合適的部分。\n"
+"這個選項通常跟妳要的不壹樣，但是這個選項可以讓妳完成切片，否則不能形成合適的"
+"切片軌跡。\n"
+"如同所有修正選項，結果可能產生的改變和使用的風險需要妳自己承擔。"
+
+#: Cura/util/profile.py:244
+msgid "Extensive stitching"
+msgstr "拼接"
+
+#: Cura/util/profile.py:244
+msgid ""
+"Extensive stitching tries to fix up open holes in the model by closing the "
+"hole with touching polygons. This algorthm is quite expensive and could "
+"introduce a lot of processing time.\n"
+"As with all \"Fix horrible\" options, results may vary and use at your own "
+"risk."
+msgstr ""
+"外延拼接試圖修復模型中的缺口，通過多邊形修復閉合缺口。\n"
+"這個算法很耗資源並增加了很多處理時間。\n"
+"如同所有修正選項，結果可能產生的改變和使用的風險需要妳自己承擔。"
+
+#: Cura/util/profile.py:470
+msgid "Save profile on slice"
+msgstr "保存切片配置"
+
+#: Cura/util/profile.py:470
+msgid ""
+"When slicing save the profile as [stl_file]_profile.ini next to the model."
+msgstr "在切片時保存[stl_file]_profile.ini可以用於下個模型"
+
+#: Cura/util/profile.py:471
+msgid "Cost (price/kg)"
+msgstr "成本 (price/kg)"
+
+#: Cura/util/profile.py:471
+msgid "Cost of your filament per kg, to estimate the cost of the final print."
+msgstr "每公斤的成本花費,用來計算列印物體的成本"
+
+#: Cura/util/profile.py:472
+msgid "Cost (price/m)"
+msgstr "成本 (price/m)"
+
+#: Cura/util/profile.py:472
+msgid ""
+"Cost of your filament per meter, to estimate the cost of the final print."
+msgstr "每米的成本花費,用來計算列印物體的成本"
+
+#: Cura/util/profile.py:473
+msgid "Auto detect SD card drive"
+msgstr "自動檢測SD卡"
+
+#: Cura/util/profile.py:473
+msgid ""
+"Auto detect the SD card. You can disable this because on some systems "
+"external hard-drives or USB sticks are detected as SD card."
+msgstr "自動檢測SD卡.妳可以在當外接硬盤或者U盤被認為是SD的時候關掉這個選項"
+
+#: Cura/util/profile.py:474
+msgid "Check for updates"
+msgstr "檢查更新"
+
+#: Cura/util/profile.py:474
+msgid "Check for newer versions of Cura on startup"
+msgstr "Cura啟動時檢查更新"
+
+#: Cura/util/profile.py:475
+msgid "Send usage statistics"
+msgstr "提交統計信息"
+
+#: Cura/util/profile.py:475
+msgid "Submit anonymous usage information to improve future versions of Cura"
+msgstr "提交匿名的統計信息,用於改進下版本的Cura"
+
+#: Cura/util/profile.py:477
+msgid "Density (kg/m3)"
+msgstr "填充密度 (%)"
+
+#: Cura/util/profile.py:477
+msgid ""
+"Weight of the filament per m3. Around 1240 for PLA. And around 1040 for ABS. "
+"This value is used to estimate the weight if the filament used for the print."
+msgstr ""
+"每立方米的耗材重量,PLA大概1240左右,ABS是1040,這個值用來估算列印物體的重量"
+
+#: Cura/util/profile.py:478
+msgid ""
+"Change the language in which Cura runs. Switching language requires a "
+"restart of Cura"
+msgstr "選擇語言,需要重啟Cura"
+
+#: Cura/util/profile.py:481
+msgid "Model colour"
+msgstr "模型顏色"
+
+#: Cura/util/profile.py:481
+msgid "Display color for first extruder"
+msgstr ""
+
+#: Cura/util/profile.py:482
+msgid "Model colour (2)"
+msgstr "模型顏色 (2)"
+
+#: Cura/util/profile.py:482
+msgid "Display color for second extruder"
+msgstr ""
+
+#: Cura/util/profile.py:483
+msgid "Model colour (3)"
+msgstr "模型顏色 (3)"
+
+#: Cura/util/profile.py:483
+msgid "Display color for third extruder"
+msgstr ""
+
+#: Cura/util/profile.py:484
+msgid "Model colour (4)"
+msgstr "模型顏色 (4)"
+
+#: Cura/util/profile.py:484
+msgid "Display color for forth extruder"
+msgstr ""
+
+#: Cura/util/profile.py:485
+msgid "Printing window type"
+msgstr "列印界面類型"
+
+#: Cura/util/profile.py:485
+msgid "Select the interface used for USB printing."
+msgstr ""
+
+#: Cura/util/profile.py:497
+msgid "Maximum width (mm)"
+msgstr "最大寬度 (mm)"
+
+#: Cura/util/profile.py:497 Cura/util/profile.py:498 Cura/util/profile.py:499
+msgid "Size of the machine in mm"
+msgstr "機器的列印尺寸(mm)"
+
+#: Cura/util/profile.py:498
+msgid "Maximum depth (mm)"
+msgstr "最大深度 (mm)"
+
+#: Cura/util/profile.py:499
+msgid "Maximum height (mm)"
+msgstr "最大高度 (mm)"
+
+#: Cura/util/profile.py:500
+msgid "Machine center 0,0"
+msgstr "機器中心 0,0"
+
+#: Cura/util/profile.py:500
+msgid ""
+"Machines firmware defines the center of the bed as 0,0 instead of the front "
+"left corner."
+msgstr "固件規定平臺中心為0,0,而不是左前角"
+
+#: Cura/util/profile.py:501
+msgid "Build area shape"
+msgstr "平臺形狀"
+
+#: Cura/util/profile.py:501
+msgid "The shape of machine build area."
+msgstr "機器平臺的形狀"
+
+#: Cura/util/profile.py:503
+msgid ""
+"If you have an heated bed, this enabled heated bed settings (requires "
+"restart)"
+msgstr "如果妳有熱盤,這裏可以打開熱盤設置(需要重啟)"
+
+#: Cura/util/profile.py:504
+msgid "GCode Flavor"
+msgstr "GCode風格"
+
+#: Cura/util/profile.py:504
+#, fuzzy
+msgid ""
+"Flavor of generated GCode.\n"
+"RepRap is normal 5D GCode which works on Marlin/Sprinter based firmwares.\n"
+"UltiGCode is a variation of the RepRap GCode which puts more settings in the "
+"machine instead of the slicer.\n"
+"MakerBot GCode has a few changes in the way GCode is generated, but still "
+"requires MakerWare to generate to X3G.\n"
+"BFB style generates RPM based code.\n"
+"Mach3 uses A,B,C instead of E for extruders."
+msgstr ""
+"GCode生成的風格\n"
+"RepRap壹般是5D GCode,兼容於Marlin/Sprinter固件\n"
+"UltiGCode是壹種GCode派生,把部分配置放到裏機器裏,而不是切片軟件\n"
+"MakerBot GCode改變了GCode的生成方式,需要MakerWare來生成X3G."
+
+#: Cura/util/profile.py:505
+msgid "Extruder count"
+msgstr "擠出頭數量"
+
+#: Cura/util/profile.py:505
+msgid "Amount of extruders in your machine."
+msgstr "妳機器所配備的擠出頭的數量"
+
+#: Cura/util/profile.py:506 Cura/util/profile.py:508 Cura/util/profile.py:510
+msgid "Offset X"
+msgstr "X偏移"
+
+#: Cura/util/profile.py:506 Cura/util/profile.py:507
+msgid "The offset of your secondary extruder compared to the primary."
+msgstr "相對於首要列印頭的偏移"
+
+#: Cura/util/profile.py:507 Cura/util/profile.py:509 Cura/util/profile.py:511
+msgid "Offset Y"
+msgstr "Y偏移"
+
+#: Cura/util/profile.py:508 Cura/util/profile.py:509
+msgid "The offset of your tertiary extruder compared to the primary."
+msgstr "相對於首要列印頭的偏移"
+
+#: Cura/util/profile.py:510 Cura/util/profile.py:511
+msgid "The offset of your forth extruder compared to the primary."
+msgstr "相對於首要列印頭的偏移"
+
+#: Cura/util/profile.py:512
+msgid "E-Steps per 1mm filament"
+msgstr "1mm擠出量E電機步數(Step per E)"
+
+#: Cura/util/profile.py:512
+msgid ""
+"Amount of steps per mm filament extrusion. If set to 0 then this value is "
+"ignored and the value in your firmware is used."
+msgstr "機器擠出1mm所需要的電機步數"
+
+#: Cura/util/profile.py:513
+msgid "Serial port"
+msgstr "端口"
+
+#: Cura/util/profile.py:513
+msgid "Serial port to use for communication with the printer"
+msgstr "用來連接妳的列印及的串口端口"
+
+#: Cura/util/profile.py:515
+msgid "Baudrate"
+msgstr "波特率"
+
+#: Cura/util/profile.py:515
+msgid ""
+"Speed of the serial port communication\n"
+"Needs to match your firmware settings\n"
+"Common values are 250000, 115200, 57600"
+msgstr ""
+"串口端口所使用的速率\n"
+"需要和妳所使用的固件匹配\n"
+"壹般為250000, 115200, 57600"
+
+#: Cura/util/profile.py:518
+msgid "Head size towards X min (mm)"
+msgstr "到X最小值方向的噴頭大小 (mm)"
+
+#: Cura/util/profile.py:518
+msgid ""
+"The head size when printing multiple objects, measured from the tip of the "
+"nozzle towards the outer part of the head. 75mm for an Ultimaker if the fan "
+"is on the left side."
+msgstr ""
+"當列印多個物體是,設置的列印頭的大小,測量方法:從噴嘴到列印頭最外端的距離."
+"Ultimaker機型,如果風扇在左邊,設置成75mm"
+
+#: Cura/util/profile.py:519
+msgid "Head size towards Y min (mm)"
+msgstr "到Y最小值方向的噴頭大小 (mm)"
+
+#: Cura/util/profile.py:519 Cura/util/profile.py:520
+msgid ""
+"The head size when printing multiple objects, measured from the tip of the "
+"nozzle towards the outer part of the head. 18mm for an Ultimaker if the fan "
+"is on the left side."
+msgstr ""
+"當列印多個物體是,設置的列印頭的大小,測量方法:從噴嘴到列印頭最外端的距離."
+"Ultimaker機型,如果風扇在左邊,設置成18mm'"
+
+#: Cura/util/profile.py:520
+msgid "Head size towards X max (mm)"
+msgstr "到X最大值方向的噴頭大小 (mm)"
+
+#: Cura/util/profile.py:521
+msgid "Head size towards Y max (mm)"
+msgstr "到Y最大值方向的噴頭大小 (mm)"
+
+#: Cura/util/profile.py:521
+msgid ""
+"The head size when printing multiple objects, measured from the tip of the "
+"nozzle towards the outer part of the head. 35mm for an Ultimaker if the fan "
+"is on the left side."
+msgstr ""
+"當列印多個物體是,設置的列印頭的大小,測量方法:從噴嘴到列印頭最外端的距離."
+"Ultimaker機型,如果風扇在左邊,設置成35mm"
+
+#: Cura/util/profile.py:522
+msgid "Printer gantry height (mm)"
+msgstr "十字軸高度 (mm)"
+
+#: Cura/util/profile.py:522
+msgid ""
+"The height of the gantry holding up the printer head. If an object is higher "
+"then this then you cannot print multiple objects one for one. 60mm for an "
+"Ultimaker."
+msgstr ""
+"用來懸掛列印頭的十字軸的高度,如果列印物體高於這個高度將無法多物體壹起列印"
+
+#: Cura/util/profile.py:524
+#, python-format
+msgid "More flow than 150% is rare and usually not recommended."
+msgstr ""
+
+#: Cura/util/profile.py:525
+#, python-format
+msgid "Less flow than 50% is rare and usually not recommended."
+msgstr ""
+
+#: Cura/util/profile.py:526
+#, python-format
+msgid ""
+"Thicker layers then %.2fmm (80%% nozzle size) usually give bad results and "
+"are not recommended."
+msgstr "層厚 %.2fmm 大於噴嘴大小 80%% 壹般來說不建議,效果不好"
+
+#: Cura/util/profile.py:528
+msgid ""
+"It is highly unlikely that your machine can achieve a printing speed above "
+"150mm/s"
+msgstr "妳確定妳的機器可以高於150mm/s的列印速度?"
+
+#: Cura/util/profile.py:530 Cura/util/profile.py:531 Cura/util/profile.py:532
+#: Cura/util/profile.py:533
+msgid "Temperatures above 260C could damage your machine, be careful!"
+msgstr "請小心,溫度大於260攝氏度可能會損壞妳的機器"
+
+#: Cura/util/profile.py:534 Cura/util/profile.py:535 Cura/util/profile.py:536
+#: Cura/util/profile.py:537
+msgid ""
+"Are you sure your filament is that thick? Normal filament is around 3mm or "
+"1.75mm."
+msgstr "妳確定妳的耗材有這麽粗?壹般耗材只為3mm或1.75mm"
+
+#: Cura/util/profile.py:538
+msgid ""
+"It is highly unlikely that your machine can achieve a travel speed above "
+"300mm/s"
+msgstr "妳確定妳的機器可以達到300mm/s的速度?"
+
+#: Cura/util/profile.py:539
+#, python-format
+msgid ""
+"A bottom layer of more then %.2fmm (3/4 nozzle size) usually give bad "
+"results and is not recommended."
+msgstr "底層厚度大於 %.2fmm (3/4 噴嘴大小)壹般結果都會比較糟糕"
+
+#~ msgid "SD_ERROR"
+#~ msgstr "請插入SD卡，否知無法列印！"
+
+#~ msgid "Print4SD"
+#~ msgstr "列印中，請稍後！"
+
+#~ msgid "Upload2SD"
+#~ msgstr "列印機正在初始化，請稍後！"
+
+#~ msgid "Opening serial port"
+#~ msgstr "打開端口，請等待！"
+
+#~ msgid "Detecting serial port"
+#~ msgstr "檢測端口，請等待！"
+
+#~ msgid "Detecting baudrate"
+#~ msgstr "檢測波特率，請等待！"
+
+#~ msgid "NozzleTemp"
+#~ msgstr "噴嘴溫度"
+
+#~ msgid "BedTemp"
+#~ msgstr "熱盤溫度"
+
+#~ msgid "PrintProgress"
+#~ msgstr "進度"
+
+#~ msgid "PrintHeating"
+#~ msgstr "加熱中，請等待！"
