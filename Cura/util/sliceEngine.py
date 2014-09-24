@@ -508,6 +508,8 @@ class Engine(object):
 			settings['fanFullOnLayerNr'] = 0
 		if profile.getProfileSetting('support_type') == 'Lines':
 			settings['supportType'] = 1
+		elif profile.getProfileSetting('support_type') == 'LinesConnect':
+			settings['supportType'] = 2
 
 		if profile.getProfileSettingFloat('fill_density') == 0:
 			settings['sparseInfillLineDistance'] = -1
