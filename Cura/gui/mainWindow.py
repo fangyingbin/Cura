@@ -24,6 +24,7 @@ from Cura.util import profile
 from Cura.util import version
 import platform
 from Cura.util import meshLoader
+from Cura.gui import aboutMakerPiWindow
 
 class mainWindow(wx.Frame):
 	def __init__(self):
@@ -189,6 +190,8 @@ class mainWindow(wx.Frame):
 		#self.Bind(wx.EVT_MENU, lambda e: webbrowser.open('https://www.youmagine.com/'), i)
 		i = helpMenu.Append(-1, _("About Cura..."))
 		self.Bind(wx.EVT_MENU, self.OnAbout, i)
+		i = helpMenu.Append(-1, _("About MakerPi..."))
+		self.Bind(wx.EVT_MENU, self.OnAboutMakerPi, i)
 		self.menubar.Append(helpMenu, _("Help"))
 		self.SetMenuBar(self.menubar)
 
@@ -572,6 +575,11 @@ class mainWindow(wx.Frame):
 		aboutBox = aboutWindow.aboutWindow()
 		aboutBox.Centre()
 		aboutBox.Show()
+
+	def OnAboutMakerPi(self, e):
+		aboutBox = aboutSoongonWindow.aboutMakerPiWindow()
+		aboutBox.Centre()
+		aboutBox.Show()	
 
 	def OnClose(self, e):
 		profile.saveProfile(profile.getDefaultProfilePath(), True)
