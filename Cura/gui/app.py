@@ -130,7 +130,13 @@ class CuraApp(wx.App):
 			self.loadFiles = [exampleFile]
 			if self.splash is not None:
 				self.splash.Show(False)
-			configWizard.configWizard()
+			#configWizard.configWizard()
+			profile.putMachineSetting('machine_name', 'M2048',0)
+			profile.putMachineSetting('machine_type', 'ultimaker',0)
+			profile.putMachineSetting('extruder_amount', 1, 0)
+			profile.putMachineSetting('machine_name', 'M2048_Dual', 1)
+			profile.putMachineSetting('machine_type', 'ultimaker', 1)
+			profile.putMachineSetting('extruder_amount', 2, 1)
 
 		if profile.getPreference('check_for_updates') == 'True':
 			newVersion = version.checkForNewerVersion()
