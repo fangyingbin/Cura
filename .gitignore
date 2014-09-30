@@ -35,3 +35,4 @@ output.txt
 .settings/
 .svn/
 ReadMe
+/.pydevproject
