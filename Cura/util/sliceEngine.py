@@ -389,21 +389,14 @@ class Engine(object):
 		logThread.start()
 
 		data = self._process.stdout.read(4096)
-		try:
-			f = open("temp.gcode", 'wb') 
-			while len(data) > 0:
-				data.replace('\n\n','\n')
-				self._result._gcodeData.write(data)
-				f.write(data)
-				self._result._gcodeDataCount += data.count('\n')
-				data = self._process.stdout.read(4096)
-			f.close()			
-		except IOError:
-			while len(data) > 0:
-				self._result._gcodeData.write(data)
-				data = self._process.stdout.read(4096)
-
-			
+		f = open("temp.gcode", 'wb') 
+		while len(data) > 0:
+			data.replace('\n\n','\n')
+			self._result._gcodeData.write(data)
+			f.write(data)
+			self._result._gcodeDataCount += data.count('\n')
+			data = self._process.stdout.read(4096)
+		f.close()
 		returnCode = self._process.wait()
 		logThread.join()
 		if returnCode == 0:
